@@ -96,7 +96,12 @@ async function fetchModelBlob(row, token) {
   for (const url of urls) {
     const response = await fetch(url);
     if (!response.ok) throw new Error(`model HTTP ${response.status}`);
-    const piece = await response.arrayBuffer();
+    let piece = await response.arrayBuffer();
+    if (row.model_compression === "gzip") {
+      if (!("DecompressionStream" in window)) throw new Error("浏览器不支持 gzip 模型流，请升级浏览器");
+      const stream = new Blob([piece]).stream().pipeThrough(new DecompressionStream("gzip"));
+      piece = await new Response(stream).arrayBuffer();
+    }
     if (token !== state.loadToken) return null;
     pieces.push(piece);
     loaded += piece.byteLength;
