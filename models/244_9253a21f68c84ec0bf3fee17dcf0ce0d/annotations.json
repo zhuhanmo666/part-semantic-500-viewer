@@ -1,0 +1,421 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "244_9253a21f68c84ec0bf3fee17dcf0ce0d",
+  "uid": "9253a21f68c84ec0bf3fee17dcf0ce0d",
+  "index": 244,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 27,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_4",
+      "mesh_index": 0,
+      "part_name": "base",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_8",
+      "mesh_index": 1,
+      "part_name": "base",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_10",
+      "mesh_index": 2,
+      "part_name": "gripper",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_12",
+      "mesh_index": 3,
+      "part_name": "end_effector",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_14",
+      "mesh_index": 4,
+      "part_name": "base",
+      "object_category": "object",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_18",
+      "mesh_index": 5,
+      "part_name": "base",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_22",
+      "mesh_index": 6,
+      "part_name": "barrel",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Object_26",
+      "mesh_index": 7,
+      "part_name": "end_effector",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Object_28",
+      "mesh_index": 8,
+      "part_name": "arm",
+      "object_category": "camera_mount",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Object_30",
+      "mesh_index": 9,
+      "part_name": "end effector",
+      "object_category": "robot arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Object_18.009",
+      "mesh_index": 10,
+      "part_name": "base",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "Object_18.018",
+      "mesh_index": 11,
+      "part_name": "base",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Object_18.027",
+      "mesh_index": 12,
+      "part_name": "base",
+      "object_category": "spotlight",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "Object_18.036",
+      "mesh_index": 13,
+      "part_name": "base",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013"
+      ],
+      "source_node_indices": [
+        13
+      ]
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "Object_18.045",
+      "mesh_index": 14,
+      "part_name": "base",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "Object_18.051",
+      "mesh_index": 15,
+      "part_name": "base",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_015"
+      ],
+      "source_node_indices": [
+        15
+      ]
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "Object_18.060",
+      "mesh_index": 16,
+      "part_name": "barrel",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_017",
+      "node_index": 17,
+      "node_name": "Object_20.020",
+      "mesh_index": 17,
+      "part_name": "barrel",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_017"
+      ],
+      "source_node_indices": [
+        17
+      ]
+    },
+    {
+      "part_id": "part_018",
+      "node_index": 18,
+      "node_name": "Object_20.026",
+      "mesh_index": 18,
+      "part_name": "barrel",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_018"
+      ],
+      "source_node_indices": [
+        18
+      ]
+    },
+    {
+      "part_id": "part_019",
+      "node_index": 19,
+      "node_name": "Object_20.051",
+      "mesh_index": 19,
+      "part_name": "炮管",
+      "object_category": "炮",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_019"
+      ],
+      "source_node_indices": [
+        19
+      ]
+    },
+    {
+      "part_id": "part_020",
+      "node_index": 20,
+      "node_name": "Object_22.049",
+      "mesh_index": 20,
+      "part_name": "end_effector",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_020"
+      ],
+      "source_node_indices": [
+        20
+      ]
+    },
+    {
+      "part_id": "part_021",
+      "node_index": 21,
+      "node_name": "Object_22.055",
+      "mesh_index": 21,
+      "part_name": "arm",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_021"
+      ],
+      "source_node_indices": [
+        21
+      ]
+    },
+    {
+      "part_id": "part_022",
+      "node_index": 22,
+      "node_name": "Object_24.016",
+      "mesh_index": 22,
+      "part_name": "joint",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_022"
+      ],
+      "source_node_indices": [
+        22
+      ]
+    },
+    {
+      "part_id": "part_023",
+      "node_index": 23,
+      "node_name": "Object_24.028",
+      "mesh_index": 23,
+      "part_name": "end effector",
+      "object_category": "robot arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_023"
+      ],
+      "source_node_indices": [
+        23
+      ]
+    },
+    {
+      "part_id": "part_024",
+      "node_index": 24,
+      "node_name": "split_parent_1",
+      "mesh_index": 24,
+      "part_name": "底座",
+      "object_category": "炮塔",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_024"
+      ],
+      "source_node_indices": [
+        24
+      ]
+    },
+    {
+      "part_id": "part_025",
+      "node_index": 25,
+      "node_name": "split_parent_7",
+      "mesh_index": 25,
+      "part_name": "upper_arm",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_025"
+      ],
+      "source_node_indices": [
+        25
+      ]
+    },
+    {
+      "part_id": "part_026",
+      "node_index": 26,
+      "node_name": "split_parent_9",
+      "mesh_index": 26,
+      "part_name": "end_effector",
+      "object_category": "robot_arm",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_026"
+      ],
+      "source_node_indices": [
+        26
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "387_acdf7e51b41a45bb9410a8951df6cb23",
+  "uid": "acdf7e51b41a45bb9410a8951df6cb23",
+  "index": 387,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Skull_Skull_0",
+      "mesh_index": 0,
+      "part_name": "skull",
+      "object_category": "skull",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    }
+  ]
+}

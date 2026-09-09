@@ -1,0 +1,136 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "566_0d0cba566b6a42efb665b784f7eef72b",
+  "uid": "0d0cba566b6a42efb665b784f7eef72b",
+  "index": 566,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 8,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "lid_crate_mat_0",
+      "mesh_index": 0,
+      "part_name": "adapting piece",
+      "object_category": "object",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "lid_glass_mat_0",
+      "mesh_index": 1,
+      "part_name": "plank",
+      "object_category": "object",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "lid_crate_mat_0.010",
+      "mesh_index": 2,
+      "part_name": "top_cover",
+      "object_category": "object",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "lid_crate_mat_0.032",
+      "mesh_index": 3,
+      "part_name": "handle",
+      "object_category": "box",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "lid_crate_mat_0.038",
+      "mesh_index": 4,
+      "part_name": "handle",
+      "object_category": "box",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "lid_crate_mat_0.101",
+      "mesh_index": 5,
+      "part_name": "handle",
+      "object_category": "container",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "lid_crate_mat_0.107",
+      "mesh_index": 6,
+      "part_name": "clip",
+      "object_category": "object",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "lid_glass_mat_0.001",
+      "mesh_index": 7,
+      "part_name": "inner lid",
+      "object_category": "box",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    }
+  ]
+}

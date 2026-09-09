@@ -1,0 +1,61 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "990_da51cbe9c4f54301a3d9f554dddd3f42",
+  "uid": "da51cbe9c4f54301a3d9f554dddd3f42",
+  "index": 990,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2.006",
+      "mesh_index": 0,
+      "part_name": "nozzle_tip",
+      "object_category": "spray_nozzle",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.021",
+      "mesh_index": 1,
+      "part_name": "brush head",
+      "object_category": "toothbrush",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "split_parent_0",
+      "mesh_index": 2,
+      "part_name": "bottle",
+      "object_category": "object",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    }
+  ]
+}

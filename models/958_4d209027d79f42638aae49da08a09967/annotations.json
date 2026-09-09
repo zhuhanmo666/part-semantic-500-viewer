@@ -1,0 +1,31 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "958_4d209027d79f42638aae49da08a09967",
+  "uid": "4d209027d79f42638aae49da08a09967",
+  "index": 958,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": ".50 Bullet tris_Bullet_0",
+      "mesh_index": 0,
+      "part_name": "bullet",
+      "object_category": "bullet",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    }
+  ]
+}

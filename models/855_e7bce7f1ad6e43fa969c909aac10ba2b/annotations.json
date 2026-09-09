@@ -1,0 +1,66 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "855_e7bce7f1ad6e43fa969c909aac10ba2b",
+  "uid": "e7bce7f1ad6e43fa969c909aac10ba2b",
+  "index": 855,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_stock_merge_001",
+      "mesh_index": 0,
+      "part_name": "stock",
+      "object_category": "rifle",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001",
+        "part_002"
+      ],
+      "source_node_indices": [
+        0,
+        1,
+        2
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.011",
+      "mesh_index": 1,
+      "part_name": "barrel",
+      "object_category": "rifle",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_2.013",
+      "mesh_index": 2,
+      "part_name": "scope",
+      "object_category": "rifle",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    }
+  ]
+}

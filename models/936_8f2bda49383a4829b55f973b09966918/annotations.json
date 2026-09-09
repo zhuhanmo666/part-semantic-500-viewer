@@ -1,0 +1,46 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "936_8f2bda49383a4829b55f973b09966918",
+  "uid": "8f2bda49383a4829b55f973b09966918",
+  "index": 936,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_6",
+      "mesh_index": 0,
+      "part_name": "base",
+      "object_category": "tree",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "split_parent_0",
+      "mesh_index": 1,
+      "part_name": "trunk",
+      "object_category": "tree",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    }
+  ]
+}

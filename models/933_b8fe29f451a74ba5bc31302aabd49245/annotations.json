@@ -1,0 +1,31 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "933_b8fe29f451a74ba5bc31302aabd49245",
+  "uid": "b8fe29f451a74ba5bc31302aabd49245",
+  "index": 933,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "split_parent_0",
+      "mesh_index": 0,
+      "part_name": "上衣",
+      "object_category": "人",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    }
+  ]
+}

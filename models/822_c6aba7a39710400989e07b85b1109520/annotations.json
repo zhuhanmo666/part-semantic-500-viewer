@@ -1,0 +1,34 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "822_c6aba7a39710400989e07b85b1109520",
+  "uid": "c6aba7a39710400989e07b85b1109520",
+  "index": 822,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_guard_merge_001",
+      "mesh_index": 0,
+      "part_name": "guard",
+      "object_category": "sword",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001"
+      ],
+      "source_node_indices": [
+        0,
+        1
+      ],
+      "semantic_merge_applied": true
+    }
+  ]
+}

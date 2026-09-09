@@ -1,0 +1,46 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "639_fe67e66e97c84ddba33f44701ec1fcd9",
+  "uid": "fe67e66e97c84ddba33f44701ec1fcd9",
+  "index": 639,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "split_parent_0",
+      "mesh_index": 0,
+      "part_name": "mouthpiece",
+      "object_category": "horn",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "split_parent_1",
+      "mesh_index": 1,
+      "part_name": "handle",
+      "object_category": "object",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    }
+  ]
+}

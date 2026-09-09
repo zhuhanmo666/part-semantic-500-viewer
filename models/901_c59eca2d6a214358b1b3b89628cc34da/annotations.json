@@ -1,0 +1,166 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "901_c59eca2d6a214358b1b3b89628cc34da",
+  "uid": "c59eca2d6a214358b1b3b89628cc34da",
+  "index": 901,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 10,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "defaultMaterial",
+      "mesh_index": 0,
+      "part_name": "candle",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "defaultMaterial.001",
+      "mesh_index": 1,
+      "part_name": "central candle",
+      "object_category": "candlestick",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "defaultMaterial.002",
+      "mesh_index": 2,
+      "part_name": "candle",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "defaultMaterial.003",
+      "mesh_index": 3,
+      "part_name": "candle holder",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "defaultMaterial.005",
+      "mesh_index": 4,
+      "part_name": "candle",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "defaultMaterial.008",
+      "mesh_index": 5,
+      "part_name": "candle holder",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "defaultMaterial.013",
+      "mesh_index": 6,
+      "part_name": "candle",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "split_parent_4",
+      "mesh_index": 7,
+      "part_name": "base",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "split_parent_6",
+      "mesh_index": 8,
+      "part_name": "arm",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "split_parent_9",
+      "mesh_index": 9,
+      "part_name": "arm",
+      "object_category": "candle holder",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    }
+  ]
+}

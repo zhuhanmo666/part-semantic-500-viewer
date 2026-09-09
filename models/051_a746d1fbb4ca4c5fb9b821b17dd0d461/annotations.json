@@ -1,0 +1,46 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "051_a746d1fbb4ca4c5fb9b821b17dd0d461",
+  "uid": "a746d1fbb4ca4c5fb9b821b17dd0d461",
+  "index": 51,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2.025",
+      "mesh_index": 0,
+      "part_name": "ring",
+      "object_category": "object",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "split_parent_0",
+      "mesh_index": 1,
+      "part_name": "screw",
+      "object_category": "screw",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    }
+  ]
+}

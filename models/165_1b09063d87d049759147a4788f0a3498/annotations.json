@@ -1,0 +1,268 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "165_1b09063d87d049759147a4788f0a3498",
+  "uid": "1b09063d87d049759147a4788f0a3498",
+  "index": 165,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 16,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "OTHER_OTHER_0",
+      "mesh_index": 0,
+      "part_name": "shutter button",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "OTHER_OTHER_0.014",
+      "mesh_index": 1,
+      "part_name": "strap loop",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "OTHER_OTHER_0.018",
+      "mesh_index": 2,
+      "part_name": "shutter button",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "semantic_shutter_button_merge_001",
+      "mesh_index": 3,
+      "part_name": "shutter button",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003",
+        "part_007"
+      ],
+      "source_node_indices": [
+        3,
+        7
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "OTHER_OTHER_0.039",
+      "mesh_index": 4,
+      "part_name": "shutter button",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "OTHER_OTHER_0.051",
+      "mesh_index": 5,
+      "part_name": "mode dial",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "OTHER_OTHER_0.064",
+      "mesh_index": 6,
+      "part_name": "mode dial",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "OTHER_OTHER_0.081",
+      "mesh_index": 7,
+      "part_name": "shutter button",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "OTHER_OTHER_0.088",
+      "mesh_index": 8,
+      "part_name": "shutter button",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "CAMER NIKON FC MAIN_MAIN_0.075",
+      "mesh_index": 9,
+      "part_name": "hot shoe",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "semantic_viewfinder_merge_002",
+      "mesh_index": 10,
+      "part_name": "viewfinder",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011",
+        "part_018"
+      ],
+      "source_node_indices": [
+        11,
+        18
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "semantic_lens_merge_003",
+      "mesh_index": 11,
+      "part_name": "lens",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012",
+        "part_013"
+      ],
+      "source_node_indices": [
+        12,
+        13
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "CAMER NIKON FC MAIN_MAIN_0.100",
+      "mesh_index": 12,
+      "part_name": "screen",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "semantic_left_grip_merge_004",
+      "mesh_index": 13,
+      "part_name": "left grip",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_015",
+        "part_019"
+      ],
+      "source_node_indices": [
+        15,
+        19
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "CAMER NIKON FC MAIN_MAIN_0.137",
+      "mesh_index": 14,
+      "part_name": "top plate",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "split_parent_1",
+      "mesh_index": 15,
+      "part_name": "body",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_017"
+      ],
+      "source_node_indices": [
+        17
+      ]
+    }
+  ]
+}

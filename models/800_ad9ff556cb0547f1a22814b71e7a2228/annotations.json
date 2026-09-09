@@ -1,0 +1,61 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "800_ad9ff556cb0547f1a22814b71e7a2228",
+  "uid": "ad9ff556cb0547f1a22814b71e7a2228",
+  "index": 800,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_3",
+      "mesh_index": 0,
+      "part_name": "small pan",
+      "object_category": "kitchenware",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_7",
+      "mesh_index": 1,
+      "part_name": "pan",
+      "object_category": "kitchenware",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "split_parent_0",
+      "mesh_index": 2,
+      "part_name": "pot",
+      "object_category": "kitchenware",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    }
+  ]
+}

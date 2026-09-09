@@ -1,0 +1,766 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "225_8de5745b12b24e38a74ea526a17eaebb",
+  "uid": "8de5745b12b24e38a74ea526a17eaebb",
+  "index": 225,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 50,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "polySurface37_gold_0",
+      "mesh_index": 0,
+      "part_name": "弧形刻度盘",
+      "object_category": "航海仪器",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "polySurface38_gold_0",
+      "mesh_index": 1,
+      "part_name": "零件",
+      "object_category": "mechanical_device",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "polySurface39_gold_0",
+      "mesh_index": 2,
+      "part_name": "调焦手柄",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "polySurface40_gold_0",
+      "mesh_index": 3,
+      "part_name": "adjustment screw",
+      "object_category": "marine sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "polySurface41_gold_0",
+      "mesh_index": 4,
+      "part_name": "目镜",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "polySurface42_gold_0",
+      "mesh_index": 5,
+      "part_name": "零件",
+      "object_category": "mechanical_device",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "polySurface46_gold_0",
+      "mesh_index": 6,
+      "part_name": "零件",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "polySurface47_brass_0",
+      "mesh_index": 7,
+      "part_name": "目镜",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "polySurface49_gold_0",
+      "mesh_index": 8,
+      "part_name": "调焦手柄",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "polySurface51_gold_0",
+      "mesh_index": 9,
+      "part_name": "mirror",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "polySurface52_brass_0",
+      "mesh_index": 10,
+      "part_name": "目镜",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "polySurface53_gold_0",
+      "mesh_index": 11,
+      "part_name": "目镜",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "polySurface54_brass_0",
+      "mesh_index": 12,
+      "part_name": "目镜",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "polySurface55_brass_0",
+      "mesh_index": 13,
+      "part_name": "mirror",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013"
+      ],
+      "source_node_indices": [
+        13
+      ]
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "polySurface56_brass_0",
+      "mesh_index": 14,
+      "part_name": "目镜",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "polySurface59_gold_dark_0",
+      "mesh_index": 15,
+      "part_name": "红色手柄",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_015"
+      ],
+      "source_node_indices": [
+        15
+      ]
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "polySurface60_gold_0",
+      "mesh_index": 16,
+      "part_name": "index arm",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_017",
+      "node_index": 17,
+      "node_name": "polySurface61_gold_0",
+      "mesh_index": 17,
+      "part_name": "镜片",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_017"
+      ],
+      "source_node_indices": [
+        17
+      ]
+    },
+    {
+      "part_id": "part_018",
+      "node_index": 18,
+      "node_name": "polySurface62_brass_0",
+      "mesh_index": 18,
+      "part_name": "eyepiece",
+      "object_category": "telescope",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_018"
+      ],
+      "source_node_indices": [
+        18
+      ]
+    },
+    {
+      "part_id": "part_019",
+      "node_index": 19,
+      "node_name": "polySurface63_gold_0",
+      "mesh_index": 19,
+      "part_name": "望远镜筒",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_019"
+      ],
+      "source_node_indices": [
+        19
+      ]
+    },
+    {
+      "part_id": "part_020",
+      "node_index": 20,
+      "node_name": "polySurface64_brass_0",
+      "mesh_index": 20,
+      "part_name": "目镜",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_020"
+      ],
+      "source_node_indices": [
+        20
+      ]
+    },
+    {
+      "part_id": "part_021",
+      "node_index": 21,
+      "node_name": "polySurface66_gold_0",
+      "mesh_index": 21,
+      "part_name": "telescope barrel",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_021"
+      ],
+      "source_node_indices": [
+        21
+      ]
+    },
+    {
+      "part_id": "part_022",
+      "node_index": 22,
+      "node_name": "polySurface67_gold_0",
+      "mesh_index": 22,
+      "part_name": "零件",
+      "object_category": "mechanical_device",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_022"
+      ],
+      "source_node_indices": [
+        22
+      ]
+    },
+    {
+      "part_id": "part_023",
+      "node_index": 23,
+      "node_name": "polySurface68_brass_0",
+      "mesh_index": 23,
+      "part_name": "镜片",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_023"
+      ],
+      "source_node_indices": [
+        23
+      ]
+    },
+    {
+      "part_id": "part_024",
+      "node_index": 24,
+      "node_name": "polySurface69_gold_0",
+      "mesh_index": 24,
+      "part_name": "目镜",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_024"
+      ],
+      "source_node_indices": [
+        24
+      ]
+    },
+    {
+      "part_id": "part_025",
+      "node_index": 25,
+      "node_name": "polySurface70_gold_0",
+      "mesh_index": 25,
+      "part_name": "零件",
+      "object_category": "mechanical_device",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_025"
+      ],
+      "source_node_indices": [
+        25
+      ]
+    },
+    {
+      "part_id": "part_026",
+      "node_index": 26,
+      "node_name": "polySurface71_brass_0",
+      "mesh_index": 26,
+      "part_name": "零件",
+      "object_category": "mechanical_device",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_026"
+      ],
+      "source_node_indices": [
+        26
+      ]
+    },
+    {
+      "part_id": "part_027",
+      "node_index": 27,
+      "node_name": "polySurface72_gold_0",
+      "mesh_index": 27,
+      "part_name": "red_button",
+      "object_category": "mechanical_device",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_027"
+      ],
+      "source_node_indices": [
+        27
+      ]
+    },
+    {
+      "part_id": "part_028",
+      "node_index": 28,
+      "node_name": "polySurface74_brass_0",
+      "mesh_index": 28,
+      "part_name": "目镜",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_028"
+      ],
+      "source_node_indices": [
+        28
+      ]
+    },
+    {
+      "part_id": "part_029",
+      "node_index": 29,
+      "node_name": "polySurface76_gold_0",
+      "mesh_index": 29,
+      "part_name": "底座",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_029"
+      ],
+      "source_node_indices": [
+        29
+      ]
+    },
+    {
+      "part_id": "part_030",
+      "node_index": 30,
+      "node_name": "polySurface78_gold_dark_0",
+      "mesh_index": 30,
+      "part_name": "adjustment knob",
+      "object_category": "marine sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_030"
+      ],
+      "source_node_indices": [
+        30
+      ]
+    },
+    {
+      "part_id": "part_031",
+      "node_index": 31,
+      "node_name": "polySurface79_brass_0",
+      "mesh_index": 31,
+      "part_name": "eyepiece",
+      "object_category": "telescope",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_031"
+      ],
+      "source_node_indices": [
+        31
+      ]
+    },
+    {
+      "part_id": "part_032",
+      "node_index": 32,
+      "node_name": "polySurface80_brass_0",
+      "mesh_index": 32,
+      "part_name": "eyepiece",
+      "object_category": "telescope",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_032"
+      ],
+      "source_node_indices": [
+        32
+      ]
+    },
+    {
+      "part_id": "part_033",
+      "node_index": 33,
+      "node_name": "polySurface81_brass_0",
+      "mesh_index": 33,
+      "part_name": "handle",
+      "object_category": "mechanical_device",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_033"
+      ],
+      "source_node_indices": [
+        33
+      ]
+    },
+    {
+      "part_id": "part_034",
+      "node_index": 34,
+      "node_name": "polySurface83_gold_0",
+      "mesh_index": 34,
+      "part_name": "adjustment knob",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_034"
+      ],
+      "source_node_indices": [
+        34
+      ]
+    },
+    {
+      "part_id": "part_035",
+      "node_index": 35,
+      "node_name": "polySurface84_gold_dark_0",
+      "mesh_index": 35,
+      "part_name": "adjustment knob",
+      "object_category": "marine sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_035"
+      ],
+      "source_node_indices": [
+        35
+      ]
+    },
+    {
+      "part_id": "part_036",
+      "node_index": 36,
+      "node_name": "polySurface85_gold_0",
+      "mesh_index": 36,
+      "part_name": "瞄准镜",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_036"
+      ],
+      "source_node_indices": [
+        36
+      ]
+    },
+    {
+      "part_id": "part_037",
+      "node_index": 37,
+      "node_name": "polySurface87_gold_0",
+      "mesh_index": 37,
+      "part_name": "竖直的红色标尺",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_037"
+      ],
+      "source_node_indices": [
+        37
+      ]
+    },
+    {
+      "part_id": "part_038",
+      "node_index": 38,
+      "node_name": "polySurface88_gold_0",
+      "mesh_index": 38,
+      "part_name": "index arm",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_038"
+      ],
+      "source_node_indices": [
+        38
+      ]
+    },
+    {
+      "part_id": "part_039",
+      "node_index": 39,
+      "node_name": "polySurface89_gold_0",
+      "mesh_index": 39,
+      "part_name": "弧形刻度盘",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_039"
+      ],
+      "source_node_indices": [
+        39
+      ]
+    },
+    {
+      "part_id": "part_040",
+      "node_index": 40,
+      "node_name": "polySurface90_gold_0",
+      "mesh_index": 40,
+      "part_name": "index arm",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_040"
+      ],
+      "source_node_indices": [
+        40
+      ]
+    },
+    {
+      "part_id": "part_041",
+      "node_index": 41,
+      "node_name": "polySurface91_gold_0",
+      "mesh_index": 41,
+      "part_name": "index arm",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_041"
+      ],
+      "source_node_indices": [
+        41
+      ]
+    },
+    {
+      "part_id": "part_042",
+      "node_index": 42,
+      "node_name": "polySurface92_gold_0",
+      "mesh_index": 42,
+      "part_name": "刻度盘",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_042"
+      ],
+      "source_node_indices": [
+        42
+      ]
+    },
+    {
+      "part_id": "part_043",
+      "node_index": 43,
+      "node_name": "split_parent_0",
+      "mesh_index": 43,
+      "part_name": "镜面",
+      "object_category": "航海仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_043"
+      ],
+      "source_node_indices": [
+        43
+      ]
+    },
+    {
+      "part_id": "part_044",
+      "node_index": 44,
+      "node_name": "split_parent_12",
+      "mesh_index": 44,
+      "part_name": "mirror",
+      "object_category": "sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_044"
+      ],
+      "source_node_indices": [
+        44
+      ]
+    },
+    {
+      "part_id": "part_045",
+      "node_index": 45,
+      "node_name": "split_parent_19",
+      "mesh_index": 45,
+      "part_name": "mirror",
+      "object_category": "marine sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_045"
+      ],
+      "source_node_indices": [
+        45
+      ]
+    },
+    {
+      "part_id": "part_046",
+      "node_index": 46,
+      "node_name": "split_parent_20",
+      "mesh_index": 46,
+      "part_name": "mirror",
+      "object_category": "marine sextant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_046"
+      ],
+      "source_node_indices": [
+        46
+      ]
+    },
+    {
+      "part_id": "part_047",
+      "node_index": 47,
+      "node_name": "split_parent_27",
+      "mesh_index": 47,
+      "part_name": "objective lens",
+      "object_category": "telescope",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_047"
+      ],
+      "source_node_indices": [
+        47
+      ]
+    },
+    {
+      "part_id": "part_048",
+      "node_index": 48,
+      "node_name": "split_parent_39",
+      "mesh_index": 48,
+      "part_name": "底座",
+      "object_category": "航海六分仪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_048"
+      ],
+      "source_node_indices": [
+        48
+      ]
+    },
+    {
+      "part_id": "part_049",
+      "node_index": 49,
+      "node_name": "split_parent_7",
+      "mesh_index": 49,
+      "part_name": "screen",
+      "object_category": "mechanical_device",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_049"
+      ],
+      "source_node_indices": [
+        49
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "839_93b664d0b41842a0aed5037386d89da4",
+  "uid": "93b664d0b41842a0aed5037386d89da4",
+  "index": 839,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 8,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Trigger_Trigger_Texture_0",
+      "mesh_index": 0,
+      "part_name": "trigger",
+      "object_category": "pistol",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Grip_Grip_Texture_0",
+      "mesh_index": 1,
+      "part_name": "grip",
+      "object_category": "pistol",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Barrel_Barrel_Texture_0",
+      "mesh_index": 2,
+      "part_name": "upper barrel",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "RecoilAssembly_RecoilAssembly_Texture_0",
+      "mesh_index": 3,
+      "part_name": "lower barrel",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Chamber_Chamber_Texture_0",
+      "mesh_index": 4,
+      "part_name": "slide",
+      "object_category": "pistol",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "FrontSight_FrontSight_Texture_0",
+      "mesh_index": 5,
+      "part_name": "front sight",
+      "object_category": "pistol",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "RearSight_RearSight_Texture_0",
+      "mesh_index": 6,
+      "part_name": "rear sight",
+      "object_category": "pistol",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "split_parent_7",
+      "mesh_index": 7,
+      "part_name": "slide",
+      "object_category": "pistol",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    }
+  ]
+}

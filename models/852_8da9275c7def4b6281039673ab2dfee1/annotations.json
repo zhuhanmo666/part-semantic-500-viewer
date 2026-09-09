@@ -1,0 +1,61 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "852_8da9275c7def4b6281039673ab2dfee1",
+  "uid": "8da9275c7def4b6281039673ab2dfee1",
+  "index": 852,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2.008",
+      "mesh_index": 0,
+      "part_name": "plank",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.010",
+      "mesh_index": 1,
+      "part_name": "plank",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_2.012",
+      "mesh_index": 2,
+      "part_name": "卷帘顶部横杆",
+      "object_category": "卷帘",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    }
+  ]
+}

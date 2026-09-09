@@ -1,0 +1,31 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "159_e5f64f792b1343e59ebd6bbd82c7a09f",
+  "uid": "e5f64f792b1343e59ebd6bbd82c7a09f",
+  "index": 159,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Cube_Planke_Aus_0",
+      "mesh_index": 0,
+      "part_name": "side panel",
+      "object_category": "crate",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    }
+  ]
+}

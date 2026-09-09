@@ -1,0 +1,31 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "370_5e1d39b6850e4a509415f669384ab544",
+  "uid": "5e1d39b6850e4a509415f669384ab544",
+  "index": 370,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "split_parent_0",
+      "mesh_index": 0,
+      "part_name": "hex head",
+      "object_category": "screw",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    }
+  ]
+}

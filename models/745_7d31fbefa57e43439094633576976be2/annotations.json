@@ -1,0 +1,82 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "745_7d31fbefa57e43439094633576976be2",
+  "uid": "7d31fbefa57e43439094633576976be2",
+  "index": 745,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_branch_merge_001",
+      "mesh_index": 0,
+      "part_name": "branch",
+      "object_category": null,
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_002",
+        "part_003",
+        "part_004",
+        "part_005",
+        "part_006",
+        "part_007",
+        "part_008",
+        "part_009",
+        "part_010",
+        "part_012"
+      ],
+      "source_node_indices": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "pCylinder1_phong1_0",
+      "mesh_index": 1,
+      "part_name": "pot",
+      "object_category": "plant",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "pCylinder3_lambert1_0",
+      "mesh_index": 2,
+      "part_name": "trunk",
+      "object_category": "tree",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    }
+  ]
+}

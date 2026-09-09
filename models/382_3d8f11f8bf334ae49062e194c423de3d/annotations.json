@@ -1,0 +1,556 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "382_3d8f11f8bf334ae49062e194c423de3d",
+  "uid": "3d8f11f8bf334ae49062e194c423de3d",
+  "index": 382,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 36,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_4",
+      "mesh_index": 0,
+      "part_name": "handle",
+      "object_category": "vehicle",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_8",
+      "mesh_index": 1,
+      "part_name": "handle",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_28",
+      "mesh_index": 2,
+      "part_name": "ax",
+      "object_category": "mechanical_tool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_32",
+      "mesh_index": 3,
+      "part_name": "ax",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_36",
+      "mesh_index": 4,
+      "part_name": "axe",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_40",
+      "mesh_index": 5,
+      "part_name": "ax plow",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_44",
+      "mesh_index": 6,
+      "part_name": "axe",
+      "object_category": "axe",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Object_48",
+      "mesh_index": 7,
+      "part_name": "axe",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Object_52",
+      "mesh_index": 8,
+      "part_name": "ax",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Object_56",
+      "mesh_index": 9,
+      "part_name": "ax",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Object_60",
+      "mesh_index": 10,
+      "part_name": "ax plow",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "Object_8.022",
+      "mesh_index": 11,
+      "part_name": "axle",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Object_14.001",
+      "mesh_index": 12,
+      "part_name": "顶部红色部件",
+      "object_category": "机械装置",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "Object_14.007",
+      "mesh_index": 13,
+      "part_name": "wheel",
+      "object_category": "object",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013"
+      ],
+      "source_node_indices": [
+        13
+      ]
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "Object_14.009",
+      "mesh_index": 14,
+      "part_name": "wheel",
+      "object_category": "tool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "Object_14.014",
+      "mesh_index": 15,
+      "part_name": "顶部红色部件",
+      "object_category": "机械装置",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_015"
+      ],
+      "source_node_indices": [
+        15
+      ]
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "Object_14.020",
+      "mesh_index": 16,
+      "part_name": "wheel",
+      "object_category": "mechanical_tool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_017",
+      "node_index": 17,
+      "node_name": "Object_14.022",
+      "mesh_index": 17,
+      "part_name": "wheel",
+      "object_category": "mechanical_tool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_017"
+      ],
+      "source_node_indices": [
+        17
+      ]
+    },
+    {
+      "part_id": "part_018",
+      "node_index": 18,
+      "node_name": "split_parent_1",
+      "mesh_index": 18,
+      "part_name": "handle",
+      "object_category": "vehicle",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_018"
+      ],
+      "source_node_indices": [
+        18
+      ]
+    },
+    {
+      "part_id": "part_019",
+      "node_index": 19,
+      "node_name": "split_parent_11",
+      "mesh_index": 19,
+      "part_name": "axe",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_019"
+      ],
+      "source_node_indices": [
+        19
+      ]
+    },
+    {
+      "part_id": "part_020",
+      "node_index": 20,
+      "node_name": "split_parent_13",
+      "mesh_index": 20,
+      "part_name": "axe",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_020"
+      ],
+      "source_node_indices": [
+        20
+      ]
+    },
+    {
+      "part_id": "part_021",
+      "node_index": 21,
+      "node_name": "split_parent_15",
+      "mesh_index": 21,
+      "part_name": "axe",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_021"
+      ],
+      "source_node_indices": [
+        21
+      ]
+    },
+    {
+      "part_id": "part_022",
+      "node_index": 22,
+      "node_name": "split_parent_17",
+      "mesh_index": 22,
+      "part_name": "axe",
+      "object_category": "axe",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_022"
+      ],
+      "source_node_indices": [
+        22
+      ]
+    },
+    {
+      "part_id": "part_023",
+      "node_index": 23,
+      "node_name": "split_parent_19",
+      "mesh_index": 23,
+      "part_name": "axe",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_023"
+      ],
+      "source_node_indices": [
+        23
+      ]
+    },
+    {
+      "part_id": "part_024",
+      "node_index": 24,
+      "node_name": "split_parent_21",
+      "mesh_index": 24,
+      "part_name": "axe",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_024"
+      ],
+      "source_node_indices": [
+        24
+      ]
+    },
+    {
+      "part_id": "part_025",
+      "node_index": 25,
+      "node_name": "split_parent_23",
+      "mesh_index": 25,
+      "part_name": "axe",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_025"
+      ],
+      "source_node_indices": [
+        25
+      ]
+    },
+    {
+      "part_id": "part_026",
+      "node_index": 26,
+      "node_name": "split_parent_25",
+      "mesh_index": 26,
+      "part_name": "handle",
+      "object_category": "tool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_026"
+      ],
+      "source_node_indices": [
+        26
+      ]
+    },
+    {
+      "part_id": "part_027",
+      "node_index": 27,
+      "node_name": "split_parent_27",
+      "mesh_index": 27,
+      "part_name": "axe",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_027"
+      ],
+      "source_node_indices": [
+        27
+      ]
+    },
+    {
+      "part_id": "part_028",
+      "node_index": 28,
+      "node_name": "split_parent_29",
+      "mesh_index": 28,
+      "part_name": "wheel",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_028"
+      ],
+      "source_node_indices": [
+        28
+      ]
+    },
+    {
+      "part_id": "part_029",
+      "node_index": 29,
+      "node_name": "split_parent_3",
+      "mesh_index": 29,
+      "part_name": "wheel",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_029"
+      ],
+      "source_node_indices": [
+        29
+      ]
+    },
+    {
+      "part_id": "part_030",
+      "node_index": 30,
+      "node_name": "split_parent_4",
+      "mesh_index": 30,
+      "part_name": "顶部结构",
+      "object_category": "机械装置",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_030"
+      ],
+      "source_node_indices": [
+        30
+      ]
+    },
+    {
+      "part_id": "part_031",
+      "node_index": 31,
+      "node_name": "split_parent_5",
+      "mesh_index": 31,
+      "part_name": "顶部结构",
+      "object_category": "机械装置",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_031"
+      ],
+      "source_node_indices": [
+        31
+      ]
+    },
+    {
+      "part_id": "part_032",
+      "node_index": 32,
+      "node_name": "split_parent_6",
+      "mesh_index": 32,
+      "part_name": "顶部红色部件",
+      "object_category": "机械装置",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_032"
+      ],
+      "source_node_indices": [
+        32
+      ]
+    },
+    {
+      "part_id": "part_033",
+      "node_index": 33,
+      "node_name": "split_parent_7",
+      "mesh_index": 33,
+      "part_name": "handle",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_033"
+      ],
+      "source_node_indices": [
+        33
+      ]
+    },
+    {
+      "part_id": "part_034",
+      "node_index": 34,
+      "node_name": "split_parent_8",
+      "mesh_index": 34,
+      "part_name": "顶部红色部件",
+      "object_category": "机械装置",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_034"
+      ],
+      "source_node_indices": [
+        34
+      ]
+    },
+    {
+      "part_id": "part_035",
+      "node_index": 35,
+      "node_name": "split_parent_9",
+      "mesh_index": 35,
+      "part_name": "ax",
+      "object_category": "tractor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_035"
+      ],
+      "source_node_indices": [
+        35
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "661_724cee38edf8448a8b3db2d9ece95b4b",
+  "uid": "724cee38edf8448a8b3db2d9ece95b4b",
+  "index": 661,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 4,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2.003",
+      "mesh_index": 0,
+      "part_name": "ring",
+      "object_category": "chair",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.015",
+      "mesh_index": 1,
+      "part_name": "dish",
+      "object_category": "satellite",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "split_parent_0",
+      "mesh_index": 2,
+      "part_name": "base",
+      "object_category": "stool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "split_parent_2",
+      "mesh_index": 3,
+      "part_name": "support frame",
+      "object_category": "satellite dish",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    }
+  ]
+}

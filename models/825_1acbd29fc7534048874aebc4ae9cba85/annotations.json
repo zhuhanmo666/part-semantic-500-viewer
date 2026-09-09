@@ -1,0 +1,46 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "825_1acbd29fc7534048874aebc4ae9cba85",
+  "uid": "1acbd29fc7534048874aebc4ae9cba85",
+  "index": 825,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2",
+      "mesh_index": 0,
+      "part_name": "handle",
+      "object_category": "medical_kit",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.016",
+      "mesh_index": 1,
+      "part_name": "handle",
+      "object_category": "medical_kit",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    }
+  ]
+}

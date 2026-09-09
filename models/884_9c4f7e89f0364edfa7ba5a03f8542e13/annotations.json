@@ -1,0 +1,31 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "884_9c4f7e89f0364edfa7ba5a03f8542e13",
+  "uid": "9c4f7e89f0364edfa7ba5a03f8542e13",
+  "index": 884,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2",
+      "mesh_index": 0,
+      "part_name": "barrel",
+      "object_category": "barrel",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "510_3c0a9ef4afd54ff4bbbc4a73eaf65e9b",
+  "uid": "3c0a9ef4afd54ff4bbbc4a73eaf65e9b",
+  "index": 510,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2.050",
+      "mesh_index": 0,
+      "part_name": "wing",
+      "object_category": "bat",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.130",
+      "mesh_index": 1,
+      "part_name": "wing",
+      "object_category": "bat",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "split_parent_0",
+      "mesh_index": 2,
+      "part_name": "torse",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    }
+  ]
+}

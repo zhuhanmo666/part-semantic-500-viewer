@@ -1,0 +1,46 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "342_b154616b35724833b8915fd2184fa5d1",
+  "uid": "b154616b35724833b8915fd2184fa5d1",
+  "index": 342,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Sphere001_Light_0",
+      "mesh_index": 0,
+      "part_name": "light lens",
+      "object_category": "flashlight",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object004_A_0",
+      "mesh_index": 1,
+      "part_name": "handle",
+      "object_category": "flashlight",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    }
+  ]
+}

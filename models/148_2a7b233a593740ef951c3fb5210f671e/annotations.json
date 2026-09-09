@@ -1,0 +1,106 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "148_2a7b233a593740ef951c3fb5210f671e",
+  "uid": "2a7b233a593740ef951c3fb5210f671e",
+  "index": 148,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 6,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Material2",
+      "mesh_index": 0,
+      "part_name": "base",
+      "object_category": "stand",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Material2.003",
+      "mesh_index": 1,
+      "part_name": "base",
+      "object_category": "stand",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Material2.020",
+      "mesh_index": 2,
+      "part_name": "base",
+      "object_category": "stand",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Material2.023",
+      "mesh_index": 3,
+      "part_name": "base",
+      "object_category": "stand",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Material2.040",
+      "mesh_index": 4,
+      "part_name": "底座",
+      "object_category": "展板",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "split_parent_2",
+      "mesh_index": 5,
+      "part_name": "主体结构",
+      "object_category": "展板",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    }
+  ]
+}

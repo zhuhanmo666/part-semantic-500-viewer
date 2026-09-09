@@ -1,0 +1,481 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "323_b4ee860044e74f15b2b70a7bb1f2d665",
+  "uid": "b4ee860044e74f15b2b70a7bb1f2d665",
+  "index": 323,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 31,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Cube.012_0",
+      "mesh_index": 0,
+      "part_name": "裤子",
+      "object_category": "人物",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Circle.008_0",
+      "mesh_index": 1,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Cube.012_0.039",
+      "mesh_index": 2,
+      "part_name": "nose",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Cube.012_0.047",
+      "mesh_index": 3,
+      "part_name": "eye",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Cube.012_0.073",
+      "mesh_index": 4,
+      "part_name": "耳朵",
+      "object_category": "人物",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Cube.012_0.108",
+      "mesh_index": 5,
+      "part_name": "face",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Cube.012_0.120",
+      "mesh_index": 6,
+      "part_name": "arm",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Cube.012_0.146",
+      "mesh_index": 7,
+      "part_name": "head",
+      "object_category": "person",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Cube.012_0.170",
+      "mesh_index": 8,
+      "part_name": "手臂",
+      "object_category": "人物",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Cube.012_0.192",
+      "mesh_index": 9,
+      "part_name": "left_arm",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Cube.012_0.216",
+      "mesh_index": 10,
+      "part_name": "foot",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "Cube.012_0.224",
+      "mesh_index": 11,
+      "part_name": "foot",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Circle.008_0.017",
+      "mesh_index": 12,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "Circle.008_0.021",
+      "mesh_index": 13,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013"
+      ],
+      "source_node_indices": [
+        13
+      ]
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "Circle.008_0.025",
+      "mesh_index": 14,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "Circle.008_0.029",
+      "mesh_index": 15,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_015"
+      ],
+      "source_node_indices": [
+        15
+      ]
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "Circle.008_0.034",
+      "mesh_index": 16,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_017",
+      "node_index": 17,
+      "node_name": "Circle.008_0.038",
+      "mesh_index": 17,
+      "part_name": "shoulder",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_017"
+      ],
+      "source_node_indices": [
+        17
+      ]
+    },
+    {
+      "part_id": "part_018",
+      "node_index": 18,
+      "node_name": "Circle.008_0.042",
+      "mesh_index": 18,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_018"
+      ],
+      "source_node_indices": [
+        18
+      ]
+    },
+    {
+      "part_id": "part_019",
+      "node_index": 19,
+      "node_name": "Circle.008_0.046",
+      "mesh_index": 19,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_019"
+      ],
+      "source_node_indices": [
+        19
+      ]
+    },
+    {
+      "part_id": "part_020",
+      "node_index": 20,
+      "node_name": "Circle.008_0.050",
+      "mesh_index": 20,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_020"
+      ],
+      "source_node_indices": [
+        20
+      ]
+    },
+    {
+      "part_id": "part_021",
+      "node_index": 21,
+      "node_name": "Circle.008_0.054",
+      "mesh_index": 21,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_021"
+      ],
+      "source_node_indices": [
+        21
+      ]
+    },
+    {
+      "part_id": "part_022",
+      "node_index": 22,
+      "node_name": "Circle.008_0.058",
+      "mesh_index": 22,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_022"
+      ],
+      "source_node_indices": [
+        22
+      ]
+    },
+    {
+      "part_id": "part_023",
+      "node_index": 23,
+      "node_name": "Circle.008_0.062",
+      "mesh_index": 23,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_023"
+      ],
+      "source_node_indices": [
+        23
+      ]
+    },
+    {
+      "part_id": "part_024",
+      "node_index": 24,
+      "node_name": "Circle.008_0.063",
+      "mesh_index": 24,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_024"
+      ],
+      "source_node_indices": [
+        24
+      ]
+    },
+    {
+      "part_id": "part_025",
+      "node_index": 25,
+      "node_name": "Circle.008_0.064",
+      "mesh_index": 25,
+      "part_name": "盾牌",
+      "object_category": "战士",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_025"
+      ],
+      "source_node_indices": [
+        25
+      ]
+    },
+    {
+      "part_id": "part_026",
+      "node_index": 26,
+      "node_name": "Circle.008_0.065",
+      "mesh_index": 26,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_026"
+      ],
+      "source_node_indices": [
+        26
+      ]
+    },
+    {
+      "part_id": "part_027",
+      "node_index": 27,
+      "node_name": "Circle.008_0.066",
+      "mesh_index": 27,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_027"
+      ],
+      "source_node_indices": [
+        27
+      ]
+    },
+    {
+      "part_id": "part_028",
+      "node_index": 28,
+      "node_name": "Circle.008_0.067",
+      "mesh_index": 28,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_028"
+      ],
+      "source_node_indices": [
+        28
+      ]
+    },
+    {
+      "part_id": "part_029",
+      "node_index": 29,
+      "node_name": "split_parent_14",
+      "mesh_index": 29,
+      "part_name": "shield",
+      "object_category": "character",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_029"
+      ],
+      "source_node_indices": [
+        29
+      ]
+    },
+    {
+      "part_id": "part_030",
+      "node_index": 30,
+      "node_name": "split_parent_2",
+      "mesh_index": 30,
+      "part_name": "head",
+      "object_category": "sumo wrestler",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_030"
+      ],
+      "source_node_indices": [
+        30
+      ]
+    }
+  ]
+}

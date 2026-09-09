@@ -1,0 +1,51 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "026_479305eb2fbf41349361d2f9bcd83061",
+  "uid": "479305eb2fbf41349361d2f9bcd83061",
+  "index": 26,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "manual",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_pump_merge_001",
+      "mesh_index": 0,
+      "part_name": "pump",
+      "object_category": null,
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001",
+        "part_002"
+      ],
+      "source_node_indices": [
+        0,
+        1,
+        2
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "savon__0.061",
+      "mesh_index": 1,
+      "part_name": "straw",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    }
+  ]
+}

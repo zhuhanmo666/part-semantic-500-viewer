@@ -1,0 +1,36 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "941_4e4f92bfd50a44698d53bd7235408b9f",
+  "uid": "4e4f92bfd50a44698d53bd7235408b9f",
+  "index": 941,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_connector_merge_001",
+      "mesh_index": 0,
+      "part_name": "connector",
+      "object_category": "electronic_component",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001",
+        "part_002"
+      ],
+      "source_node_indices": [
+        0,
+        1,
+        2
+      ],
+      "semantic_merge_applied": true
+    }
+  ]
+}

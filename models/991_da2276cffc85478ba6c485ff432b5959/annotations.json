@@ -1,0 +1,256 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "991_da2276cffc85478ba6c485ff432b5959",
+  "uid": "da2276cffc85478ba6c485ff432b5959",
+  "index": 991,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 15,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Finished pallet_Material #3_0",
+      "mesh_index": 0,
+      "part_name": "top plank",
+      "object_category": "pallet",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Finished pallet_Wooden Plank Material_0",
+      "mesh_index": 1,
+      "part_name": "right leg",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "semantic_slat_merge_001",
+      "mesh_index": 2,
+      "part_name": "slat",
+      "object_category": null,
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002",
+        "part_003",
+        "part_004",
+        "part_005",
+        "part_006",
+        "part_007",
+        "part_008",
+        "part_018"
+      ],
+      "source_node_indices": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        18
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Finished pallet_Material #3_0.048",
+      "mesh_index": 3,
+      "part_name": "support beam",
+      "object_category": "pallet",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Finished pallet_Material #3_0.054",
+      "mesh_index": 4,
+      "part_name": "base",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Finished pallet_Material #3_0.060",
+      "mesh_index": 5,
+      "part_name": "base",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Finished pallet_Material #3_0.066",
+      "mesh_index": 6,
+      "part_name": "seat",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Finished pallet_Material #3_0.078",
+      "mesh_index": 7,
+      "part_name": "seat",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013"
+      ],
+      "source_node_indices": [
+        13
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Finished pallet_Wooden Plank Material_0.006",
+      "mesh_index": 8,
+      "part_name": "support block",
+      "object_category": "pallet",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Finished pallet_Wooden Plank Material_0.012",
+      "mesh_index": 9,
+      "part_name": "seat",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_015"
+      ],
+      "source_node_indices": [
+        15
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Finished pallet_Wooden Plank Material_0.018",
+      "mesh_index": 10,
+      "part_name": "right leg",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "Finished pallet_Wooden Plank Material_0.024",
+      "mesh_index": 11,
+      "part_name": "leg",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_017"
+      ],
+      "source_node_indices": [
+        17
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Finished pallet_Wooden Plank Material_0.036",
+      "mesh_index": 12,
+      "part_name": "seat",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_019"
+      ],
+      "source_node_indices": [
+        19
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "Finished pallet_Wooden Plank Material_0.042",
+      "mesh_index": 13,
+      "part_name": "leg",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_020"
+      ],
+      "source_node_indices": [
+        20
+      ]
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "split_parent_13",
+      "mesh_index": 14,
+      "part_name": "seat",
+      "object_category": "bench",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_021"
+      ],
+      "source_node_indices": [
+        21
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "215_228d92307870440496e23b95b6c5b2a4",
+  "uid": "228d92307870440496e23b95b6c5b2a4",
+  "index": 215,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_body_merge_001",
+      "mesh_index": 0,
+      "part_name": "body",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_002"
+      ],
+      "source_node_indices": [
+        0,
+        2
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_3",
+      "mesh_index": 1,
+      "part_name": "lens",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_2.064",
+      "mesh_index": 2,
+      "part_name": "shutter button",
+      "object_category": "camera",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "095_fcf4e258d3344cce844a9eae0f279493",
+  "uid": "fcf4e258d3344cce844a9eae0f279493",
+  "index": 95,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Material2.030",
+      "mesh_index": 0,
+      "part_name": "弹匣",
+      "object_category": "枪支",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Material2.235",
+      "mesh_index": 1,
+      "part_name": "枪管",
+      "object_category": "枪",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "split_parent_0",
+      "mesh_index": 2,
+      "part_name": "stock",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    }
+  ]
+}

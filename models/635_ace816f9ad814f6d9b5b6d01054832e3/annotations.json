@@ -1,0 +1,166 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "635_ace816f9ad814f6d9b5b6d01054832e3",
+  "uid": "ace816f9ad814f6d9b5b6d01054832e3",
+  "index": 635,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 9,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_4.011",
+      "mesh_index": 0,
+      "part_name": "main rotor",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "semantic_tail_boom_merge_001",
+      "mesh_index": 1,
+      "part_name": "tail boom",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001",
+        "part_002"
+      ],
+      "source_node_indices": [
+        1,
+        2
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_4.150",
+      "mesh_index": 2,
+      "part_name": "rotor blade",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "semantic_main_rotor_blade_merge_002",
+      "mesh_index": 3,
+      "part_name": "main rotor blade",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004",
+        "part_006",
+        "part_008"
+      ],
+      "source_node_indices": [
+        4,
+        6,
+        8
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "semantic_tail_rotor_merge_003",
+      "mesh_index": 4,
+      "part_name": "tail rotor",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005",
+        "part_009",
+        "part_010",
+        "part_011"
+      ],
+      "source_node_indices": [
+        5,
+        9,
+        10,
+        11
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_4.176",
+      "mesh_index": 5,
+      "part_name": "landing gear",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_4.274",
+      "mesh_index": 6,
+      "part_name": "landing gear",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "split_parent_0",
+      "mesh_index": 7,
+      "part_name": "main rotor",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013"
+      ],
+      "source_node_indices": [
+        13
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "split_parent_1",
+      "mesh_index": 8,
+      "part_name": "engine",
+      "object_category": "helicopter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    }
+  ]
+}

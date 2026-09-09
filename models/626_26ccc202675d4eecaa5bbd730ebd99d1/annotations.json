@@ -1,0 +1,346 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "626_26ccc202675d4eecaa5bbd730ebd99d1",
+  "uid": "26ccc202675d4eecaa5bbd730ebd99d1",
+  "index": 626,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 22,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0",
+      "mesh_index": 0,
+      "part_name": "under_shelf",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "#TBL0001_Drawer_Middle_#TBL0001_Desk_0",
+      "mesh_index": 1,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "#TBL0001_Drawer_Bottom_#TBL0001_Desk_0",
+      "mesh_index": 2,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.001",
+      "mesh_index": 3,
+      "part_name": "right leg",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.005",
+      "mesh_index": 4,
+      "part_name": "drawer front panel",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.009",
+      "mesh_index": 5,
+      "part_name": "left leg",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.013",
+      "mesh_index": 6,
+      "part_name": "seat",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.020",
+      "mesh_index": 7,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.024",
+      "mesh_index": 8,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.028",
+      "mesh_index": 9,
+      "part_name": "left cabinet door",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.029",
+      "mesh_index": 10,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.040",
+      "mesh_index": 11,
+      "part_name": "left drawer front panel",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.044",
+      "mesh_index": 12,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.050",
+      "mesh_index": 13,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013"
+      ],
+      "source_node_indices": [
+        13
+      ]
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.060",
+      "mesh_index": 14,
+      "part_name": "shelf",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "#TBL0001_Wooden_Desk_76x150x106_#TBL0001_Desk_0.064",
+      "mesh_index": 15,
+      "part_name": "shelf",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_015"
+      ],
+      "source_node_indices": [
+        15
+      ]
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "#TBL0001_Drawer_Top_#TBL0001_Desk_0.006",
+      "mesh_index": 16,
+      "part_name": "drawer front",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_017",
+      "node_index": 17,
+      "node_name": "#TBL0001_Drawer_Middle_#TBL0001_Desk_0.006",
+      "mesh_index": 17,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_017"
+      ],
+      "source_node_indices": [
+        17
+      ]
+    },
+    {
+      "part_id": "part_018",
+      "node_index": 18,
+      "node_name": "#TBL0001_Drawer_Bottom_#TBL0001_Desk_0.006",
+      "mesh_index": 18,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_018"
+      ],
+      "source_node_indices": [
+        18
+      ]
+    },
+    {
+      "part_id": "part_019",
+      "node_index": 19,
+      "node_name": "split_parent_14",
+      "mesh_index": 19,
+      "part_name": "top surface",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_019"
+      ],
+      "source_node_indices": [
+        19
+      ]
+    },
+    {
+      "part_id": "part_020",
+      "node_index": 20,
+      "node_name": "split_parent_18",
+      "mesh_index": 20,
+      "part_name": "drawer",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_020"
+      ],
+      "source_node_indices": [
+        20
+      ]
+    },
+    {
+      "part_id": "part_021",
+      "node_index": 21,
+      "node_name": "split_parent_23",
+      "mesh_index": 21,
+      "part_name": "pull-out tray",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_021"
+      ],
+      "source_node_indices": [
+        21
+      ]
+    }
+  ]
+}

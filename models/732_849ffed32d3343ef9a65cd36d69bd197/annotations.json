@@ -1,0 +1,51 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "732_849ffed32d3343ef9a65cd36d69bd197",
+  "uid": "849ffed32d3343ef9a65cd36d69bd197",
+  "index": 732,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_strap_merge_001",
+      "mesh_index": 0,
+      "part_name": "strap",
+      "object_category": "handbag",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_002",
+        "part_003"
+      ],
+      "source_node_indices": [
+        0,
+        2,
+        3
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Sling Bag Bidayuh (EMP (SWK) SANDR 8)_M_0_0.038",
+      "mesh_index": 1,
+      "part_name": "handle",
+      "object_category": "handbag",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    }
+  ]
+}

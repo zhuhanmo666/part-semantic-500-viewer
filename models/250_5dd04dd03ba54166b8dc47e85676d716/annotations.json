@@ -1,0 +1,180 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "250_5dd04dd03ba54166b8dc47e85676d716",
+  "uid": "5dd04dd03ba54166b8dc47e85676d716",
+  "index": 250,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 10,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2",
+      "mesh_index": 0,
+      "part_name": "桌面",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_3",
+      "mesh_index": 1,
+      "part_name": "monitor stand",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "semantic_monitor_merge_001",
+      "mesh_index": 2,
+      "part_name": "monitor",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002",
+        "part_007"
+      ],
+      "source_node_indices": [
+        2,
+        7
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "semantic_leg_merge_002",
+      "mesh_index": 3,
+      "part_name": "leg",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003",
+        "part_012",
+        "part_013"
+      ],
+      "source_node_indices": [
+        3,
+        12,
+        13
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_3.001",
+      "mesh_index": 4,
+      "part_name": "mousepad",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "semantic_keyboard_merge_003",
+      "mesh_index": 5,
+      "part_name": "keyboard",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005",
+        "part_006"
+      ],
+      "source_node_indices": [
+        5,
+        6
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_4.003",
+      "mesh_index": 6,
+      "part_name": "keyboard",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "semantic_leg_merge_004",
+      "mesh_index": 7,
+      "part_name": "leg",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009",
+        "part_010"
+      ],
+      "source_node_indices": [
+        9,
+        10
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Object_5.018",
+      "mesh_index": 8,
+      "part_name": "left leg",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "split_parent_8",
+      "mesh_index": 9,
+      "part_name": "mouse",
+      "object_category": "desk",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    }
+  ]
+}

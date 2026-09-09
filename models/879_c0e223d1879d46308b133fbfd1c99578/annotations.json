@@ -1,0 +1,83 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "879_c0e223d1879d46308b133fbfd1c99578",
+  "uid": "c0e223d1879d46308b133fbfd1c99578",
+  "index": 879,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_seat_merge_001",
+      "mesh_index": 0,
+      "part_name": "seat",
+      "object_category": null,
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001",
+        "part_002",
+        "part_003",
+        "part_004",
+        "part_005",
+        "part_011",
+        "part_012"
+      ],
+      "source_node_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        11,
+        12
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "semantic_backrest_merge_002",
+      "mesh_index": 1,
+      "part_name": "backrest",
+      "object_category": "chair",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006",
+        "part_008",
+        "part_009",
+        "part_010"
+      ],
+      "source_node_indices": [
+        6,
+        8,
+        9,
+        10
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "split_parent_0",
+      "mesh_index": 2,
+      "part_name": "footrest",
+      "object_category": "chair",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "986_57f55dba6d81428a8672019aab2509e3",
+  "uid": "57f55dba6d81428a8672019aab2509e3",
+  "index": 986,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 13,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2",
+      "mesh_index": 0,
+      "part_name": "handlebar",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.012",
+      "mesh_index": 1,
+      "part_name": "handlebar",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_3.003",
+      "mesh_index": 2,
+      "part_name": "brake lever",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_3.012",
+      "mesh_index": 3,
+      "part_name": "frame",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_3.015",
+      "mesh_index": 4,
+      "part_name": "handle",
+      "object_category": "valve",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_3.027",
+      "mesh_index": 5,
+      "part_name": "handle",
+      "object_category": "valve",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "split_parent_1",
+      "mesh_index": 6,
+      "part_name": "frame",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "split_parent_11",
+      "mesh_index": 7,
+      "part_name": "handlebar",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "split_parent_12",
+      "mesh_index": 8,
+      "part_name": "handlebar",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "split_parent_4",
+      "mesh_index": 9,
+      "part_name": "wheel",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "split_parent_5",
+      "mesh_index": 10,
+      "part_name": "wheel",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "split_parent_8",
+      "mesh_index": 11,
+      "part_name": "front wheel",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "split_parent_9",
+      "mesh_index": 12,
+      "part_name": "wheel",
+      "object_category": "scooter",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "127_31c982eae82d4b2d8dfe56f4dceef4c2",
+  "uid": "31c982eae82d4b2d8dfe56f4dceef4c2",
+  "index": 127,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_fuse_merge_001",
+      "mesh_index": 0,
+      "part_name": "fuse",
+      "object_category": "bomb",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001"
+      ],
+      "source_node_indices": [
+        0,
+        1
+      ],
+      "semantic_merge_applied": true
+    }
+  ]
+}

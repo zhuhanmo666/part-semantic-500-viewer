@@ -1,0 +1,166 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "574_79e9aa5edeac4ae584fe40af38c9779e",
+  "uid": "79e9aa5edeac4ae584fe40af38c9779e",
+  "index": 574,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 10,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "handle1_metallic_0",
+      "mesh_index": 0,
+      "part_name": "handle",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "handle2_metallic_0",
+      "mesh_index": 1,
+      "part_name": "lever",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "shtopor_metallic_0",
+      "mesh_index": 2,
+      "part_name": "pivot",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "handle1_metallic_0.003",
+      "mesh_index": 3,
+      "part_name": "lever",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "handle2_metallic_0.003",
+      "mesh_index": 4,
+      "part_name": "lever",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "shtopor_metallic_0.013",
+      "mesh_index": 5,
+      "part_name": "lever",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "shtopor_metallic_0.016",
+      "mesh_index": 6,
+      "part_name": "pivot",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "split_parent_1",
+      "mesh_index": 7,
+      "part_name": "handle",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "split_parent_6",
+      "mesh_index": 8,
+      "part_name": "spiral",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "split_parent_9",
+      "mesh_index": 9,
+      "part_name": "handle",
+      "object_category": "corkscrew",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    }
+  ]
+}

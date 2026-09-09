@@ -1,0 +1,34 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "171_049431d3e5134947be37c6a3d289de4f",
+  "uid": "049431d3e5134947be37c6a3d289de4f",
+  "index": 171,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 1,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_handle_merge_001",
+      "mesh_index": 0,
+      "part_name": "handle",
+      "object_category": "fork",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001"
+      ],
+      "source_node_indices": [
+        0,
+        1
+      ],
+      "semantic_merge_applied": true
+    }
+  ]
+}

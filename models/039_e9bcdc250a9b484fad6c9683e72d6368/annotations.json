@@ -1,0 +1,121 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "039_e9bcdc250a9b484fad6c9683e72d6368",
+  "uid": "e9bcdc250a9b484fad6c9683e72d6368",
+  "index": 39,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 7,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "pCylinder1_phong1_0",
+      "mesh_index": 0,
+      "part_name": "base",
+      "object_category": "stool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "pCylinder2_phong1_0",
+      "mesh_index": 1,
+      "part_name": "base",
+      "object_category": "lamp",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "pCylinder3_phong1_0",
+      "mesh_index": 2,
+      "part_name": "adjustment mechanism",
+      "object_category": "stool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "pCylinder4_phong1_0",
+      "mesh_index": 3,
+      "part_name": "stem",
+      "object_category": "stool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "pCylinder5_phong1_0",
+      "mesh_index": 4,
+      "part_name": "stem",
+      "object_category": "stool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "pCylinder6_phong1_0",
+      "mesh_index": 5,
+      "part_name": "seat",
+      "object_category": "stool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "pSphere1_phong1_0",
+      "mesh_index": 6,
+      "part_name": "seat",
+      "object_category": "stool",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "886_3fbb88ba1552441aa6aee582183db5cd",
+  "uid": "3fbb88ba1552441aa6aee582183db5cd",
+  "index": 886,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 5,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2.001",
+      "mesh_index": 0,
+      "part_name": "ear",
+      "object_category": "monster",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.002",
+      "mesh_index": 1,
+      "part_name": "ear",
+      "object_category": "monster",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_2.003",
+      "mesh_index": 2,
+      "part_name": "eye",
+      "object_category": "monster",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_2.004",
+      "mesh_index": 3,
+      "part_name": "eye",
+      "object_category": "monster",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "split_parent_0",
+      "mesh_index": 4,
+      "part_name": "head",
+      "object_category": "monster",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    }
+  ]
+}

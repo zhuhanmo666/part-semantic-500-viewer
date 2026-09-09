@@ -1,0 +1,49 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "414_49d9d35451314abba02fe1c06f779ae7",
+  "uid": "49d9d35451314abba02fe1c06f779ae7",
+  "index": 414,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Box001_Material #2_0",
+      "mesh_index": 0,
+      "part_name": "screen",
+      "object_category": "monitor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "semantic_stand_merge_001",
+      "mesh_index": 1,
+      "part_name": "stand",
+      "object_category": "monitor",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001",
+        "part_002"
+      ],
+      "source_node_indices": [
+        1,
+        2
+      ],
+      "semantic_merge_applied": true
+    }
+  ]
+}

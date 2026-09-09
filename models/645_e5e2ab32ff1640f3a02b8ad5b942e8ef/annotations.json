@@ -1,0 +1,61 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "645_e5e2ab32ff1640f3a02b8ad5b942e8ef",
+  "uid": "e5e2ab32ff1640f3a02b8ad5b942e8ef",
+  "index": 645,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "manual",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "SwordW_SwordW_0",
+      "mesh_index": 0,
+      "part_name": "blade",
+      "object_category": "sword",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "SwordW1_SwordW1_0",
+      "mesh_index": 1,
+      "part_name": "handle",
+      "object_category": "weapon",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "SwordW_copy1_SwordW_copy1_0",
+      "mesh_index": 2,
+      "part_name": "cross guard",
+      "object_category": "object",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    }
+  ]
+}

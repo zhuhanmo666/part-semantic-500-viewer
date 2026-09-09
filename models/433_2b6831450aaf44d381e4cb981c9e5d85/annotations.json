@@ -1,0 +1,136 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "433_2b6831450aaf44d381e4cb981c9e5d85",
+  "uid": "2b6831450aaf44d381e4cb981c9e5d85",
+  "index": 433,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 8,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2",
+      "mesh_index": 0,
+      "part_name": "handle",
+      "object_category": "teapot",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.001",
+      "mesh_index": 1,
+      "part_name": "leg",
+      "object_category": "teapot",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_2.002",
+      "mesh_index": 2,
+      "part_name": "leg",
+      "object_category": "teapot",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_2.003",
+      "mesh_index": 3,
+      "part_name": "leg",
+      "object_category": "teapot",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_2.004",
+      "mesh_index": 4,
+      "part_name": "leg",
+      "object_category": "teapot",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_2.006",
+      "mesh_index": 5,
+      "part_name": "spout",
+      "object_category": "teapot",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_2.042",
+      "mesh_index": 6,
+      "part_name": "spout",
+      "object_category": "teapot",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Object_2.172",
+      "mesh_index": 7,
+      "part_name": "handle",
+      "object_category": "teapot",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    }
+  ]
+}

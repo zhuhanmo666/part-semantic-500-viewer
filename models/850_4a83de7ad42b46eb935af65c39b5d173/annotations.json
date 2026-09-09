@@ -1,0 +1,253 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "850_4a83de7ad42b46eb935af65c39b5d173",
+  "uid": "4a83de7ad42b46eb935af65c39b5d173",
+  "index": 850,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 15,
+  "annotation_source": "manual",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2.003",
+      "mesh_index": 0,
+      "part_name": "hammer",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.007",
+      "mesh_index": 1,
+      "part_name": "trigger",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "semantic_cylinder_merge_001",
+      "mesh_index": 2,
+      "part_name": "cylinder",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002",
+        "part_003",
+        "part_004",
+        "part_008",
+        "part_018"
+      ],
+      "source_node_indices": [
+        2,
+        3,
+        4,
+        8,
+        18
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_2.059",
+      "mesh_index": 3,
+      "part_name": "grip",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_2.062",
+      "mesh_index": 4,
+      "part_name": "trigger",
+      "object_category": "pistol",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_2.072",
+      "mesh_index": 5,
+      "part_name": "barrel",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_2.077",
+      "mesh_index": 6,
+      "part_name": "accessory",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Object_2.110",
+      "mesh_index": 7,
+      "part_name": "accessory",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Object_2.143",
+      "mesh_index": 8,
+      "part_name": "trigger",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Object_2.207",
+      "mesh_index": 9,
+      "part_name": "accessory",
+      "object_category": "unknown",
+      "semantic_source": "manual",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "semantic_trigger_merge_002",
+      "mesh_index": 10,
+      "part_name": "trigger",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013",
+        "part_014"
+      ],
+      "source_node_indices": [
+        13,
+        14
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "Object_2.239",
+      "mesh_index": 11,
+      "part_name": "trigger",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_015"
+      ],
+      "source_node_indices": [
+        15
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Object_2.240",
+      "mesh_index": 12,
+      "part_name": "trigger",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "split_parent_0",
+      "mesh_index": 13,
+      "part_name": "frame",
+      "object_category": "revolver",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_017"
+      ],
+      "source_node_indices": [
+        17
+      ]
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "split_parent_12",
+      "mesh_index": 14,
+      "part_name": "trigger",
+      "object_category": "gun",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_019"
+      ],
+      "source_node_indices": [
+        19
+      ]
+    }
+  ]
+}

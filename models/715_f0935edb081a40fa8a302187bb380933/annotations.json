@@ -1,0 +1,79 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "715_f0935edb081a40fa8a302187bb380933",
+  "uid": "f0935edb081a40fa8a302187bb380933",
+  "index": 715,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 4,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2",
+      "mesh_index": 0,
+      "part_name": "base",
+      "object_category": "sofa",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.008",
+      "mesh_index": 1,
+      "part_name": "seat",
+      "object_category": "sofa",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "semantic_front_panel_merge_001",
+      "mesh_index": 2,
+      "part_name": "front panel",
+      "object_category": "sofa",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002",
+        "part_004"
+      ],
+      "source_node_indices": [
+        2,
+        4
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_2.031",
+      "mesh_index": 3,
+      "part_name": "base",
+      "object_category": "sofa",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    }
+  ]
+}

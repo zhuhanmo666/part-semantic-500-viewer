@@ -1,0 +1,46 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "729_2a57dc0b9b4d4b28b5dac7037b3e8c32",
+  "uid": "2a57dc0b9b4d4b28b5dac7037b3e8c32",
+  "index": 729,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "no_merge",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "dagger_dagger_m_0",
+      "mesh_index": 0,
+      "part_name": "blade",
+      "object_category": "knife",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "dagger_dagger_m_0.010",
+      "mesh_index": 1,
+      "part_name": "handle",
+      "object_category": "knife",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    }
+  ]
+}

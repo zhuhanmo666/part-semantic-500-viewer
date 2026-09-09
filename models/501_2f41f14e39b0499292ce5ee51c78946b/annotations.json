@@ -1,0 +1,309 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "501_2f41f14e39b0499292ce5ee51c78946b",
+  "uid": "2f41f14e39b0499292ce5ee51c78946b",
+  "index": 501,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 19,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_4",
+      "mesh_index": 0,
+      "part_name": "lower_molar",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_6",
+      "mesh_index": 1,
+      "part_name": "lower_molar",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_8",
+      "mesh_index": 2,
+      "part_name": "upper_lateral_incisor",
+      "object_category": "dental_impression",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "semantic_molar_merge_001",
+      "mesh_index": 3,
+      "part_name": "molar",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003",
+        "part_004"
+      ],
+      "source_node_indices": [
+        3,
+        4
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_14",
+      "mesh_index": 4,
+      "part_name": "molar",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_16",
+      "mesh_index": 5,
+      "part_name": "tongue",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_18",
+      "mesh_index": 6,
+      "part_name": "lower_molar",
+      "object_category": "dental_impression",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Object_20",
+      "mesh_index": 7,
+      "part_name": "upper_jaw",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "semantic_molar_merge_002",
+      "mesh_index": 8,
+      "part_name": "molar",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009",
+        "part_017",
+        "part_018"
+      ],
+      "source_node_indices": [
+        9,
+        17,
+        18
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Object_24",
+      "mesh_index": 9,
+      "part_name": "incisor",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Object_26",
+      "mesh_index": 10,
+      "part_name": "lower right first molar",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "Object_28",
+      "mesh_index": 11,
+      "part_name": "upper_jaw",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_012"
+      ],
+      "source_node_indices": [
+        12
+      ]
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Object_30",
+      "mesh_index": 12,
+      "part_name": "molar",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_013"
+      ],
+      "source_node_indices": [
+        13
+      ]
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "Object_32",
+      "mesh_index": 13,
+      "part_name": "central_incisor",
+      "object_category": "dental_impression",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_014"
+      ],
+      "source_node_indices": [
+        14
+      ]
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "Object_34",
+      "mesh_index": 14,
+      "part_name": "maxillary canine",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_015"
+      ],
+      "source_node_indices": [
+        15
+      ]
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "Object_36",
+      "mesh_index": 15,
+      "part_name": "upper_lateral_incisor",
+      "object_category": "dental_impression",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_016"
+      ],
+      "source_node_indices": [
+        16
+      ]
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "Object_42",
+      "mesh_index": 16,
+      "part_name": "upper_lateral_incisor",
+      "object_category": "dental_impression",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_019"
+      ],
+      "source_node_indices": [
+        19
+      ]
+    },
+    {
+      "part_id": "part_017",
+      "node_index": 17,
+      "node_name": "Object_46",
+      "mesh_index": 17,
+      "part_name": "lower_molar",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_020"
+      ],
+      "source_node_indices": [
+        20
+      ]
+    },
+    {
+      "part_id": "part_018",
+      "node_index": 18,
+      "node_name": "split_parent_20",
+      "mesh_index": 18,
+      "part_name": "maxillary_lateral_incisor",
+      "object_category": "dental_model",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_021"
+      ],
+      "source_node_indices": [
+        21
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "620_1422e3952c4349708845abf0a3c9e3f9",
+  "uid": "1422e3952c4349708845abf0a3c9e3f9",
+  "index": 620,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 12,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": false,
+  "semantic_merge_result": "merge_failed",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2.003",
+      "mesh_index": 0,
+      "part_name": "top knob",
+      "object_category": "door knob",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000"
+      ],
+      "source_node_indices": [
+        0
+      ]
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_2.004",
+      "mesh_index": 1,
+      "part_name": "top_left",
+      "object_category": "door_knob",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_001"
+      ],
+      "source_node_indices": [
+        1
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_2.005",
+      "mesh_index": 2,
+      "part_name": "top",
+      "object_category": "door_knob",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_2.006",
+      "mesh_index": 3,
+      "part_name": "top knob",
+      "object_category": "door knob",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_2.015",
+      "mesh_index": 4,
+      "part_name": "ring",
+      "object_category": "ring",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_004"
+      ],
+      "source_node_indices": [
+        4
+      ]
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_2.018",
+      "mesh_index": 5,
+      "part_name": "ring",
+      "object_category": "door_knob",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_005"
+      ],
+      "source_node_indices": [
+        5
+      ]
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_2.022",
+      "mesh_index": 6,
+      "part_name": "ring",
+      "object_category": "ring",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_006"
+      ],
+      "source_node_indices": [
+        6
+      ]
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Object_2.027",
+      "mesh_index": 7,
+      "part_name": "ring",
+      "object_category": "door_knob",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_007"
+      ],
+      "source_node_indices": [
+        7
+      ]
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Object_2.031",
+      "mesh_index": 8,
+      "part_name": "ring",
+      "object_category": "ring",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_008"
+      ],
+      "source_node_indices": [
+        8
+      ]
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Object_3.008",
+      "mesh_index": 9,
+      "part_name": "ring",
+      "object_category": "door_knob",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_009"
+      ],
+      "source_node_indices": [
+        9
+      ]
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Object_3.013",
+      "mesh_index": 10,
+      "part_name": "ring",
+      "object_category": "ring",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_010"
+      ],
+      "source_node_indices": [
+        10
+      ]
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "Object_3.017",
+      "mesh_index": 11,
+      "part_name": "ring",
+      "object_category": "hook",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_011"
+      ],
+      "source_node_indices": [
+        11
+      ]
+    }
+  ]
+}

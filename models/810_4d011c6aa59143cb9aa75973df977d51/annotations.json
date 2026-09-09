@@ -1,0 +1,64 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "810_4d011c6aa59143cb9aa75973df977d51",
+  "uid": "4d011c6aa59143cb9aa75973df977d51",
+  "index": 810,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 3,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_hair_merge_001",
+      "mesh_index": 0,
+      "part_name": "hair",
+      "object_category": "head",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001"
+      ],
+      "source_node_indices": [
+        0,
+        1
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Oci_low_UV_1_Oci_low_UV_1_0",
+      "mesh_index": 1,
+      "part_name": "eye",
+      "object_category": "head",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_002"
+      ],
+      "source_node_indices": [
+        2
+      ]
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Oci_low_UV_1_Oci_low_UV_1_0.002",
+      "mesh_index": 2,
+      "part_name": "eye",
+      "object_category": "head",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    }
+  ]
+}

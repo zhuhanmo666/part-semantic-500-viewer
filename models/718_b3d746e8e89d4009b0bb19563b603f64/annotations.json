@@ -1,0 +1,51 @@
+{
+  "schema_version": "compact-part-semantics-1.0",
+  "asset_id": "718_b3d746e8e89d4009b0bb19563b603f64",
+  "uid": "b3d746e8e89d4009b0bb19563b603f64",
+  "index": 718,
+  "quality_pass": true,
+  "audit_result": "PASS",
+  "all_parts_named": true,
+  "part_count": 2,
+  "annotation_source": "vlm",
+  "semantic_merge_applied": true,
+  "semantic_merge_result": "merged_verified",
+  "model_file": "model.glb",
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "semantic_stone_merge_001",
+      "mesh_index": 0,
+      "part_name": "stone",
+      "object_category": "ring",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_000",
+        "part_001",
+        "part_002"
+      ],
+      "source_node_indices": [
+        0,
+        1,
+        2
+      ],
+      "semantic_merge_applied": true
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "split_parent_3",
+      "mesh_index": 1,
+      "part_name": "band",
+      "object_category": "ring",
+      "semantic_source": "vlm",
+      "source_part_ids": [
+        "part_003"
+      ],
+      "source_node_indices": [
+        3
+      ]
+    }
+  ]
+}
