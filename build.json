@@ -1,0 +1,19 @@
+{
+  "schema_version": "static-part-viewer-1.0",
+  "verified": true,
+  "storage": {
+    "hardlink": 500,
+    "copy": 0
+  },
+  "summary": {
+    "asset_count": 500,
+    "part_count": 4541,
+    "vlm_asset_count": 378,
+    "manual_completed_asset_count": 122,
+    "manual_part_count": 337,
+    "all_assets_quality_pass": true,
+    "all_parts_named": true,
+    "model_bytes": 949084888,
+    "max_model_bytes": 70278468
+  }
+}

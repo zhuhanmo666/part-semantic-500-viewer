@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="500个质量通过、part语义完整的3D模型浏览器">
+  <title>3D Part Semantic Dataset</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="importmap">
+    {"imports":{"three":"./vendor/three.module.min.js","three/addons/":"./vendor/addons/"}}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="首页"><span class="brand-icon">3D</span><span><strong>Part Semantic Dataset</strong><small>500 quality-passed models · fully named parts</small></span></a>
+    <div class="summary" aria-label="数据集统计">
+      <div><span>模型</span><strong id="stat-models">—</strong></div>
+      <div><span>Parts</span><strong id="stat-parts">—</strong></div>
+      <div><span>人工补全</span><strong id="stat-manual">—</strong></div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="model-panel panel">
+      <div class="panel-head">
+        <div><p class="eyebrow">DATASET</p><h1>模型列表</h1></div>
+        <span id="result-count" class="count">—</span>
+      </div>
+      <label class="search"><span>⌕</span><input id="model-search" type="search" placeholder="模型ID、part名称或类别" autocomplete="off"></label>
+      <div class="filter-row" role="group" aria-label="标注来源">
+        <button class="chip active" data-source="all">全部</button>
+        <button class="chip" data-source="vlm">VLM</button>
+        <button class="chip" data-source="manual">人工补全</button>
+      </div>
+      <div id="model-list" class="model-list" aria-live="polite"></div>
+    </aside>
+
+    <section class="viewer-panel panel">
+      <div class="viewer-head">
+        <div class="asset-heading"><p class="eyebrow">CURRENT MODEL</p><h2 id="asset-id">请选择模型</h2></div>
+        <div class="viewer-actions">
+          <button id="previous" title="上一个模型">←</button>
+          <button id="next" title="下一个模型">→</button>
+          <a id="download" class="button-link" download>下载GLB</a>
+        </div>
+      </div>
+      <div id="viewport" class="viewport">
+        <canvas id="canvas"></canvas>
+        <div id="loading" class="loading"><i></i><strong>读取数据集…</strong><small id="loading-detail"></small></div>
+        <div class="canvas-help">左键旋转 · 滚轮缩放 · 右键平移 · 点击部件查看语义</div>
+      </div>
+      <div class="toolbar">
+        <div class="tool-buttons">
+          <button id="fit">适配视图</button>
+          <button id="show-all">显示全部</button>
+          <button id="solo">只看当前part</button>
+        </div>
+        <label class="switch"><input id="semantic-colors" type="checkbox" checked><span></span>语义配色</label>
+        <label class="switch"><input id="wireframe" type="checkbox"><span></span>线框</label>
+        <label class="switch"><input id="auto-rotate" type="checkbox"><span></span>自动旋转</label>
+      </div>
+    </section>
+
+    <aside class="semantic-panel panel">
+      <div class="asset-card">
+        <p class="eyebrow">SEMANTIC ANNOTATION</p>
+        <div class="meta-grid">
+          <div><span>标注来源</span><strong id="annotation-source">—</strong></div>
+          <div><span>部件数量</span><strong id="part-count">—</strong></div>
+          <div><span>质量检查</span><strong class="pass">PASS</strong></div>
+          <div><span>语义合并</span><strong id="merge-status">—</strong></div>
+        </div>
+      </div>
+      <label class="search part-search"><span>⌕</span><input id="part-search" type="search" placeholder="搜索当前模型的part"></label>
+      <div class="part-title"><h2>Parts</h2><span id="visible-parts">—</span></div>
+      <div id="part-list" class="part-list"></div>
+      <div id="part-detail" class="part-detail empty">
+        <p class="eyebrow">SELECTED PART</p>
+        <h3 id="part-name">点击模型部件或右侧列表</h3>
+        <dl>
+          <div><dt>Part ID</dt><dd id="part-id">—</dd></div>
+          <div><dt>对象类别</dt><dd id="object-category">—</dd></div>
+          <div><dt>节点名称</dt><dd id="node-name">—</dd></div>
+          <div><dt>语义来源</dt><dd id="semantic-source">—</dd></div>
+        </dl>
+      </div>
+    </aside>
+  </main>
+
+  <div id="toast" class="toast" role="status"></div>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
