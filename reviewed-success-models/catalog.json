@@ -1,0 +1,136 @@
+{
+  "schema_version": "static-reviewed-part-viewer-1.0",
+  "generated_at_unix": 1789111779.7849627,
+  "summary": {
+    "asset_count": 4,
+    "part_count": 73,
+    "auto_approved_asset_count": 1,
+    "manually_reviewed_asset_count": 3,
+    "manual_part_count": 6,
+    "all_assets_quality_pass": true,
+    "all_parts_named": true,
+    "model_bytes": 2664148
+  },
+  "models": [
+    {
+      "asset_id": "001_6a25379ebb134d259bd35c09682cc4ae",
+      "annotation_source": "vlm_auto_approved",
+      "part_count": 1,
+      "manual_part_count": 0,
+      "semantic_merge_status": "no_merge",
+      "labels": [
+        "barrel"
+      ],
+      "object_categories": [
+        "barrel"
+      ],
+      "model_bytes": 15672,
+      "model_url": "./models/001_6a25379ebb134d259bd35c09682cc4ae/model.glb",
+      "annotation_url": "./models/001_6a25379ebb134d259bd35c09682cc4ae/annotations.json"
+    },
+    {
+      "asset_id": "003_26eda181849f4d188f69105302fd7b65",
+      "annotation_source": "vlm_plus_manual_review",
+      "part_count": 19,
+      "manual_part_count": 4,
+      "semantic_merge_status": "no_merge",
+      "labels": [
+        "fuze_body",
+        "grenade_body",
+        "inner latch",
+        "inner lid",
+        "lever_hinge_pin",
+        "rivet",
+        "safety pin pull ring",
+        "safety_lever",
+        "safety_pin",
+        "safety_pin_pull_ring",
+        "striker pivot pin",
+        "tablet",
+        "保险握片",
+        "保险销",
+        "引信保险盖",
+        "引信底火",
+        "弹体"
+      ],
+      "object_categories": [
+        "M67 fragmentation grenade",
+        "M67 fragmentation hand grenade",
+        "M67手榴弹",
+        "hand_grenade",
+        "手榴弹"
+      ],
+      "model_bytes": 713804,
+      "model_url": "./models/003_26eda181849f4d188f69105302fd7b65/model.glb",
+      "annotation_url": "./models/003_26eda181849f4d188f69105302fd7b65/annotations.json"
+    },
+    {
+      "asset_id": "007_a444e83df72b4d41a26c7a44db929986",
+      "annotation_source": "vlm_plus_manual_review",
+      "part_count": 36,
+      "manual_part_count": 1,
+      "semantic_merge_status": "merged_verified",
+      "labels": [
+        "antenna",
+        "central fuselage",
+        "landing gear",
+        "landing_gear",
+        "motor",
+        "motor support arm",
+        "propeller",
+        "propeller blade",
+        "propeller guard",
+        "propeller guard arm assembly",
+        "propeller guard support strut",
+        "propeller hub",
+        "propeller_blade",
+        "propeller_guard",
+        "rotor_hub",
+        "螺旋桨叶片"
+      ],
+      "object_categories": [
+        "quadcopter",
+        "quadcopter drone",
+        "quadcopter_drone",
+        "四旋翼无人机"
+      ],
+      "model_bytes": 461828,
+      "model_url": "./models/007_a444e83df72b4d41a26c7a44db929986/model.glb",
+      "annotation_url": "./models/007_a444e83df72b4d41a26c7a44db929986/annotations.json"
+    },
+    {
+      "asset_id": "009_84a0fb8f46a54a109ac0f579d33168de",
+      "annotation_source": "vlm_plus_manual_review",
+      "part_count": 17,
+      "manual_part_count": 1,
+      "semantic_merge_status": "merged_verified",
+      "labels": [
+        "Wi-Fi label",
+        "brand_logo",
+        "brand_logo_lettering",
+        "button",
+        "camera_lens",
+        "control_button",
+        "lens_bezel",
+        "logo_letter_A",
+        "logo_lettering",
+        "model branding text",
+        "model_number_marking",
+        "model_number_text",
+        "rocker_button",
+        "shutter_button",
+        "slot",
+        "status_indicator_light"
+      ],
+      "object_categories": [
+        "action_camera",
+        "camera",
+        "light_switch",
+        "microwave_oven"
+      ],
+      "model_bytes": 1472844,
+      "model_url": "./models/009_84a0fb8f46a54a109ac0f579d33168de/model.glb",
+      "annotation_url": "./models/009_84a0fb8f46a54a109ac0f579d33168de/annotations.json"
+    }
+  ]
+}

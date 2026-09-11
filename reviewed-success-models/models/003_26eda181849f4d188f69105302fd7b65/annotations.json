@@ -1,0 +1,363 @@
+{
+  "schema_version": "final-semantic-parts-1.1",
+  "asset_id": "003_26eda181849f4d188f69105302fd7b65",
+  "model_sha256": "a5d989f115bff7bec1f19954f3b1ee2fea07953319e4d1a107300be5cc38e377",
+  "part_count": 19,
+  "all_parts_named": true,
+  "quality_pass": true,
+  "semantic_merge_status": "no_merge",
+  "annotation_source": "vlm_plus_manual_review",
+  "manual_updated_part_count": 4,
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Body_lowTris__0",
+      "mesh_index": 0,
+      "object_category": "手榴弹",
+      "part_name": "弹体",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_000"
+      ],
+      "vlm_part_name": "弹体",
+      "vlm_object_category": "手榴弹",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Fuze_lowTris__0",
+      "mesh_index": 1,
+      "object_category": "手榴弹",
+      "part_name": "保险销",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_001"
+      ],
+      "vlm_part_name": "保险销",
+      "vlm_object_category": "手榴弹",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "StrikerAxis_lowTris__0",
+      "mesh_index": 2,
+      "object_category": "hand_grenade",
+      "part_name": "safety_pin",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_002"
+      ],
+      "vlm_part_name": "safety_pin",
+      "vlm_object_category": "hand_grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "SafetyRingAxis_lowTris__0",
+      "mesh_index": 3,
+      "object_category": "M67 fragmentation hand grenade",
+      "part_name": "safety pin pull ring",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_003"
+      ],
+      "vlm_part_name": "safety pin pull ring",
+      "vlm_object_category": "M67 fragmentation hand grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Primer_lowTris__0",
+      "mesh_index": 4,
+      "object_category": "unknown",
+      "part_name": "inner lid",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_004"
+      ],
+      "vlm_part_name": "unknown",
+      "vlm_object_category": "unknown",
+      "vlm_name_status": "unknown",
+      "task_status": "completed",
+      "manual_annotation": true,
+      "manual_updated_at_unix": 1789109806.5592804
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "StrikerSpring_lowTris__0",
+      "mesh_index": 5,
+      "object_category": "unknown",
+      "part_name": "inner latch",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_005"
+      ],
+      "vlm_part_name": "unknown",
+      "vlm_object_category": "unknown",
+      "vlm_name_status": "unknown",
+      "task_status": "completed",
+      "manual_annotation": true,
+      "manual_updated_at_unix": 1789109836.0965471
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Fuze_lowTris.001__0",
+      "mesh_index": 6,
+      "object_category": "手榴弹",
+      "part_name": "保险销",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_006"
+      ],
+      "vlm_part_name": "保险销",
+      "vlm_object_category": "手榴弹",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "StrikerAxis_lowTris.001__0",
+      "mesh_index": 7,
+      "object_category": "hand_grenade",
+      "part_name": "rivet",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_007"
+      ],
+      "vlm_part_name": "rivet",
+      "vlm_object_category": "hand_grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Primer_lowTris.001__0",
+      "mesh_index": 8,
+      "object_category": "M67手榴弹",
+      "part_name": "引信底火",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_008"
+      ],
+      "vlm_part_name": "引信底火",
+      "vlm_object_category": "M67手榴弹",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "StrikerSpring_lowTris.001__0",
+      "mesh_index": 9,
+      "object_category": "M67 fragmentation grenade",
+      "part_name": "striker pivot pin",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_009"
+      ],
+      "vlm_part_name": "striker pivot pin",
+      "vlm_object_category": "M67 fragmentation grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Fuze_lowTris__0.001",
+      "mesh_index": 10,
+      "object_category": "hand_grenade",
+      "part_name": "fuze_body",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_010"
+      ],
+      "vlm_part_name": "fuze_body",
+      "vlm_object_category": "hand_grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "SafetyRingAxis_lowTris__0.004",
+      "mesh_index": 11,
+      "object_category": "hand_grenade",
+      "part_name": "lever_hinge_pin",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_011"
+      ],
+      "vlm_part_name": "lever_hinge_pin",
+      "vlm_object_category": "hand_grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Fuze_lowTris.001__0.001",
+      "mesh_index": 12,
+      "object_category": "手榴弹",
+      "part_name": "引信保险盖",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_012"
+      ],
+      "vlm_part_name": "引信保险盖",
+      "vlm_object_category": "手榴弹",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "split_parent_11",
+      "mesh_index": 13,
+      "object_category": "手榴弹",
+      "part_name": "保险握片",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_013"
+      ],
+      "vlm_part_name": "保险握片",
+      "vlm_object_category": "手榴弹",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "split_parent_12",
+      "mesh_index": 14,
+      "object_category": "M67手榴弹",
+      "part_name": "tablet",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_014"
+      ],
+      "vlm_part_name": "unknown",
+      "vlm_object_category": "M67手榴弹",
+      "vlm_name_status": "unknown",
+      "task_status": "completed",
+      "manual_annotation": true,
+      "manual_updated_at_unix": 1789109869.7280314
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "split_parent_2",
+      "mesh_index": 15,
+      "object_category": "hand_grenade",
+      "part_name": "safety_lever",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_015"
+      ],
+      "vlm_part_name": "safety_lever",
+      "vlm_object_category": "hand_grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "split_parent_3",
+      "mesh_index": 16,
+      "object_category": "unknown",
+      "part_name": "tablet",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_016"
+      ],
+      "vlm_part_name": "unknown",
+      "vlm_object_category": "unknown",
+      "vlm_name_status": "unknown",
+      "task_status": "completed",
+      "manual_annotation": true,
+      "manual_updated_at_unix": 1789109873.287267
+    },
+    {
+      "part_id": "part_017",
+      "node_index": 17,
+      "node_name": "split_parent_5",
+      "mesh_index": 17,
+      "object_category": "hand_grenade",
+      "part_name": "safety_pin_pull_ring",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_017"
+      ],
+      "vlm_part_name": "safety_pin_pull_ring",
+      "vlm_object_category": "hand_grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_018",
+      "node_index": 18,
+      "node_name": "split_parent_9",
+      "mesh_index": 18,
+      "object_category": "hand_grenade",
+      "part_name": "grenade_body",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_018"
+      ],
+      "vlm_part_name": "grenade_body",
+      "vlm_object_category": "hand_grenade",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "static-reviewed-part-viewer-1.0",
+  "verified": true,
+  "summary": {
+    "asset_count": 4,
+    "part_count": 73,
+    "auto_approved_asset_count": 1,
+    "manually_reviewed_asset_count": 3,
+    "manual_part_count": 6,
+    "all_assets_quality_pass": true,
+    "all_parts_named": true,
+    "model_bytes": 2664148
+  }
+}

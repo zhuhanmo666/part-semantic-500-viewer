@@ -1,0 +1,27 @@
+{
+  "schema_version": "final-semantic-parts-1.1",
+  "asset_id": "001_6a25379ebb134d259bd35c09682cc4ae",
+  "model_sha256": "08d417302a9150c91de237205e19411d4caff5c6821d7f76047d69885e5544e9",
+  "part_count": 1,
+  "all_parts_named": true,
+  "quality_pass": true,
+  "semantic_merge_status": "no_merge",
+  "annotation_source": "vlm_auto_approved",
+  "manual_updated_part_count": 0,
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_2",
+      "mesh_index": 0,
+      "object_category": "barrel",
+      "part_name": "barrel",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_000"
+      ]
+    }
+  ]
+}

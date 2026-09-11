@@ -1,0 +1,331 @@
+{
+  "schema_version": "final-semantic-parts-1.1",
+  "asset_id": "009_84a0fb8f46a54a109ac0f579d33168de",
+  "model_sha256": "c8ef21dd638c798ef6f3415f706372ddbc6847bb75e2e02718f108bac92b4821",
+  "part_count": 17,
+  "all_parts_named": true,
+  "quality_pass": true,
+  "semantic_merge_status": "merged_verified",
+  "annotation_source": "vlm_plus_manual_review",
+  "manual_updated_part_count": 1,
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Object_6",
+      "mesh_index": 0,
+      "object_category": "action_camera",
+      "part_name": "lens_bezel",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_000"
+      ],
+      "vlm_part_name": "lens_bezel",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Object_8",
+      "mesh_index": 1,
+      "object_category": "action_camera",
+      "part_name": "shutter_button",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_001"
+      ],
+      "vlm_part_name": "shutter_button",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Object_10",
+      "mesh_index": 2,
+      "object_category": "camera",
+      "part_name": "control_button",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_002"
+      ],
+      "vlm_part_name": "control_button",
+      "vlm_object_category": "camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Object_12",
+      "mesh_index": 3,
+      "object_category": "camera",
+      "part_name": "button",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_003"
+      ],
+      "vlm_part_name": "button",
+      "vlm_object_category": "camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Object_14",
+      "mesh_index": 4,
+      "object_category": "microwave_oven",
+      "part_name": "slot",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_004"
+      ],
+      "vlm_part_name": "unknown",
+      "vlm_object_category": "microwave_oven",
+      "vlm_name_status": "unknown",
+      "task_status": "completed",
+      "manual_annotation": true,
+      "manual_updated_at_unix": 1789109959.5939803
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Object_16",
+      "mesh_index": 5,
+      "object_category": "light_switch",
+      "part_name": "rocker_button",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_005"
+      ],
+      "vlm_part_name": "rocker_button",
+      "vlm_object_category": "light_switch",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Object_18",
+      "mesh_index": 6,
+      "object_category": "action_camera",
+      "part_name": "camera_lens",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_006"
+      ],
+      "vlm_part_name": "camera_lens",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Object_20",
+      "mesh_index": 7,
+      "object_category": "action_camera",
+      "part_name": "brand_logo",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_007"
+      ],
+      "vlm_part_name": "brand_logo",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "Object_22",
+      "mesh_index": 8,
+      "object_category": "action_camera",
+      "part_name": "status_indicator_light",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_008"
+      ],
+      "vlm_part_name": "status_indicator_light",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Object_24",
+      "mesh_index": 9,
+      "object_category": "action_camera",
+      "part_name": "model_number_text",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_009"
+      ],
+      "vlm_part_name": "model_number_text",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Object_20.002",
+      "mesh_index": 10,
+      "object_category": "action_camera",
+      "part_name": "logo_letter_A",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_010"
+      ],
+      "vlm_part_name": "logo_letter_A",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "semantic_brand_logo_lettering_merge_001",
+      "mesh_index": 11,
+      "object_category": "action_camera",
+      "part_name": "brand_logo_lettering",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": "VLM semantic merge auto-approved and geometry verified",
+      "source_part_ids": [
+        "part_011",
+        "part_012"
+      ],
+      "merge_group_id": "merge_001",
+      "vlm_part_name": "brand_logo_lettering",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Object_20.005",
+      "mesh_index": 12,
+      "object_category": "action_camera",
+      "part_name": "logo_lettering",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_013"
+      ],
+      "vlm_part_name": "logo_lettering",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "semantic_Wi-Fi_label_merge_002",
+      "mesh_index": 13,
+      "object_category": "action_camera",
+      "part_name": "Wi-Fi label",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": "VLM semantic merge auto-approved and geometry verified",
+      "source_part_ids": [
+        "part_014",
+        "part_015",
+        "part_016"
+      ],
+      "merge_group_id": "merge_002",
+      "vlm_part_name": "Wi-Fi label",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "Object_24.001",
+      "mesh_index": 14,
+      "object_category": "action_camera",
+      "part_name": "model_number_marking",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_017"
+      ],
+      "vlm_part_name": "model_number_marking",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "semantic_model_number_text_merge_003",
+      "mesh_index": 15,
+      "object_category": "action_camera",
+      "part_name": "model_number_text",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": "VLM semantic merge auto-approved and geometry verified",
+      "source_part_ids": [
+        "part_018",
+        "part_019",
+        "part_022"
+      ],
+      "merge_group_id": "merge_003",
+      "vlm_part_name": "model_number_text",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "semantic_model_branding_text_merge_004",
+      "mesh_index": 16,
+      "object_category": "action_camera",
+      "part_name": "model branding text",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": "VLM semantic merge auto-approved and geometry verified",
+      "source_part_ids": [
+        "part_020",
+        "part_021"
+      ],
+      "merge_group_id": "merge_004",
+      "vlm_part_name": "model branding text",
+      "vlm_object_category": "action_camera",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "schema_version": "final-semantic-parts-1.1",
+  "asset_id": "007_a444e83df72b4d41a26c7a44db929986",
+  "model_sha256": "b0d1c557ddc71b032386ce253d34f3f764deaa8924aceb617c8db7170a7c323a",
+  "part_count": 36,
+  "all_parts_named": true,
+  "quality_pass": true,
+  "semantic_merge_status": "merged_verified",
+  "annotation_source": "vlm_plus_manual_review",
+  "manual_updated_part_count": 1,
+  "parts": [
+    {
+      "part_id": "part_000",
+      "node_index": 0,
+      "node_name": "Line003_Material #2_0",
+      "mesh_index": 0,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller guard arm assembly",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_000"
+      ],
+      "vlm_part_name": "propeller guard arm assembly",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_001",
+      "node_index": 1,
+      "node_name": "Cylinder001_Material #2_0",
+      "mesh_index": 1,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller hub",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_001"
+      ],
+      "vlm_part_name": "propeller hub",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_002",
+      "node_index": 2,
+      "node_name": "Line004_Material #2_0",
+      "mesh_index": 2,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller guard arm assembly",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_002"
+      ],
+      "vlm_part_name": "mixed_region",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "mixed_region",
+      "task_status": "completed",
+      "manual_annotation": true,
+      "manual_updated_at_unix": 1789109894.964581
+    },
+    {
+      "part_id": "part_003",
+      "node_index": 3,
+      "node_name": "Cylinder002_Material #2_0",
+      "mesh_index": 3,
+      "object_category": "quadcopter drone",
+      "part_name": "motor",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_003"
+      ],
+      "vlm_part_name": "motor",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_004",
+      "node_index": 4,
+      "node_name": "Line012_Material #2_0",
+      "mesh_index": 4,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_004"
+      ],
+      "vlm_part_name": "propeller",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_005",
+      "node_index": 5,
+      "node_name": "Line014_Material #2_0",
+      "mesh_index": 5,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller guard support strut",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_005"
+      ],
+      "vlm_part_name": "propeller guard support strut",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_006",
+      "node_index": 6,
+      "node_name": "Line016_Material #2_0",
+      "mesh_index": 6,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_006"
+      ],
+      "vlm_part_name": "propeller",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_007",
+      "node_index": 7,
+      "node_name": "Line018_Material #2_0",
+      "mesh_index": 7,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_007"
+      ],
+      "vlm_part_name": "propeller",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_008",
+      "node_index": 8,
+      "node_name": "semantic_propeller_merge_001",
+      "mesh_index": 8,
+      "object_category": "quadcopter_drone",
+      "part_name": "propeller",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": "VLM semantic merge auto-approved and geometry verified",
+      "source_part_ids": [
+        "part_008",
+        "part_009"
+      ],
+      "merge_group_id": "merge_001",
+      "vlm_part_name": "propeller",
+      "vlm_object_category": "quadcopter_drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_009",
+      "node_index": 9,
+      "node_name": "Line022_Material #2_0",
+      "mesh_index": 9,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_010"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_010",
+      "node_index": 10,
+      "node_name": "Line024_Material #2_0",
+      "mesh_index": 10,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_011"
+      ],
+      "vlm_part_name": "propeller",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_011",
+      "node_index": 11,
+      "node_name": "Line025_Material #2_0",
+      "mesh_index": 11,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_012"
+      ],
+      "vlm_part_name": "propeller",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_012",
+      "node_index": 12,
+      "node_name": "Line001_Material #2_0",
+      "mesh_index": 12,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller guard",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_013"
+      ],
+      "vlm_part_name": "propeller guard",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_013",
+      "node_index": 13,
+      "node_name": "Cylinder004_Material #2_0",
+      "mesh_index": 13,
+      "object_category": "quadcopter_drone",
+      "part_name": "rotor_hub",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_014"
+      ],
+      "vlm_part_name": "rotor_hub",
+      "vlm_object_category": "quadcopter_drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_014",
+      "node_index": 14,
+      "node_name": "Rectangle009_Material #2_0",
+      "mesh_index": 14,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_015"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_015",
+      "node_index": 15,
+      "node_name": "Rectangle010_Material #2_0",
+      "mesh_index": 15,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_016"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_016",
+      "node_index": 16,
+      "node_name": "Rectangle011_Material #2_0",
+      "mesh_index": 16,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_017"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_017",
+      "node_index": 17,
+      "node_name": "Rectangle012_Material #2_0",
+      "mesh_index": 17,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_018"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_018",
+      "node_index": 18,
+      "node_name": "Line007_Material #2_0",
+      "mesh_index": 18,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_019"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_019",
+      "node_index": 19,
+      "node_name": "Line009_Material #2_0",
+      "mesh_index": 19,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_020"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_020",
+      "node_index": 20,
+      "node_name": "Line002_Material #2_0",
+      "mesh_index": 20,
+      "object_category": "quadcopter_drone",
+      "part_name": "propeller_guard",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_021"
+      ],
+      "vlm_part_name": "propeller_guard",
+      "vlm_object_category": "quadcopter_drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_021",
+      "node_index": 21,
+      "node_name": "Cylinder003_Material #2_0",
+      "mesh_index": 21,
+      "object_category": "quadcopter drone",
+      "part_name": "motor",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_022"
+      ],
+      "vlm_part_name": "motor",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_022",
+      "node_index": 22,
+      "node_name": "Line006_Material #2_0",
+      "mesh_index": 22,
+      "object_category": "quadcopter drone",
+      "part_name": "motor support arm",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_023"
+      ],
+      "vlm_part_name": "motor support arm",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_023",
+      "node_index": 23,
+      "node_name": "Line008_Material #2_0",
+      "mesh_index": 23,
+      "object_category": "quadcopter_drone",
+      "part_name": "propeller_blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_024"
+      ],
+      "vlm_part_name": "propeller_blade",
+      "vlm_object_category": "quadcopter_drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_024",
+      "node_index": 24,
+      "node_name": "Rectangle009_Material #2_0.004",
+      "mesh_index": 24,
+      "object_category": "四旋翼无人机",
+      "part_name": "螺旋桨叶片",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_025"
+      ],
+      "vlm_part_name": "螺旋桨叶片",
+      "vlm_object_category": "四旋翼无人机",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_025",
+      "node_index": 25,
+      "node_name": "Rectangle009_Material #2_0.008",
+      "mesh_index": 25,
+      "object_category": "quadcopter",
+      "part_name": "propeller_blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_026"
+      ],
+      "vlm_part_name": "propeller_blade",
+      "vlm_object_category": "quadcopter",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_026",
+      "node_index": 26,
+      "node_name": "Rectangle010_Material #2_0.004",
+      "mesh_index": 26,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_027"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_027",
+      "node_index": 27,
+      "node_name": "Rectangle010_Material #2_0.008",
+      "mesh_index": 27,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_028"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_028",
+      "node_index": 28,
+      "node_name": "Rectangle011_Material #2_0.004",
+      "mesh_index": 28,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_029"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_029",
+      "node_index": 29,
+      "node_name": "Rectangle011_Material #2_0.008",
+      "mesh_index": 29,
+      "object_category": "quadcopter drone",
+      "part_name": "propeller blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_030"
+      ],
+      "vlm_part_name": "propeller blade",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_030",
+      "node_index": 30,
+      "node_name": "Rectangle012_Material #2_0.004",
+      "mesh_index": 30,
+      "object_category": "quadcopter_drone",
+      "part_name": "propeller_blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_031"
+      ],
+      "vlm_part_name": "propeller_blade",
+      "vlm_object_category": "quadcopter_drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_031",
+      "node_index": 31,
+      "node_name": "Rectangle012_Material #2_0.008",
+      "mesh_index": 31,
+      "object_category": "quadcopter_drone",
+      "part_name": "propeller_blade",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_032"
+      ],
+      "vlm_part_name": "propeller_blade",
+      "vlm_object_category": "quadcopter_drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_032",
+      "node_index": 32,
+      "node_name": "split_parent_0",
+      "mesh_index": 32,
+      "object_category": "quadcopter drone",
+      "part_name": "central fuselage",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_033"
+      ],
+      "vlm_part_name": "central fuselage",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_033",
+      "node_index": 33,
+      "node_name": "split_parent_26",
+      "mesh_index": 33,
+      "object_category": "quadcopter drone",
+      "part_name": "antenna",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_034"
+      ],
+      "vlm_part_name": "antenna",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_034",
+      "node_index": 34,
+      "node_name": "split_parent_27",
+      "mesh_index": 34,
+      "object_category": "quadcopter drone",
+      "part_name": "landing gear",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_035"
+      ],
+      "vlm_part_name": "landing gear",
+      "vlm_object_category": "quadcopter drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    },
+    {
+      "part_id": "part_035",
+      "node_index": 35,
+      "node_name": "split_parent_28",
+      "mesh_index": 35,
+      "object_category": "quadcopter_drone",
+      "part_name": "landing_gear",
+      "name_status": "named",
+      "needs_review": false,
+      "review_reason": null,
+      "source_part_ids": [
+        "part_036"
+      ],
+      "vlm_part_name": "landing_gear",
+      "vlm_object_category": "quadcopter_drone",
+      "vlm_name_status": "named",
+      "manual_annotation": false
+    }
+  ]
+}
