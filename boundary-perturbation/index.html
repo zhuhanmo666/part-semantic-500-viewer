@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boundary Perturbation Inspector</title>
+<style>
+:root{color-scheme:dark;--bg:#090c12;--panel:#111722;--panel2:#171f2d;--line:#283246;--text:#e7edf7;--muted:#8f9bad;--accent:#48a6ff;--red:#ff554d;--cyan:#20dce7}
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font:14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+#app{display:grid;grid-template-rows:54px 1fr;height:100%}.topbar{display:flex;align-items:center;gap:9px;padding:8px 12px;border-bottom:1px solid var(--line);background:#0e131d}.brand{font-weight:700;letter-spacing:.2px;white-space:nowrap}.topbar select{min-width:320px;max-width:52vw;flex:1}.button,button,select,input{background:var(--panel2);color:var(--text);border:1px solid #354158;border-radius:7px;padding:7px 9px}button{cursor:pointer}button:hover{border-color:#6681a9}button.active{background:#173c63;border-color:var(--accent);box-shadow:0 0 0 1px #48a6ff44 inset}.content{display:grid;grid-template-columns:minmax(0,1fr) 370px;min-height:0}.viewport{position:relative;min-width:0;background:radial-gradient(circle at 50% 42%,#172030 0,#090c12 67%)}canvas{width:100%;height:100%;display:block;touch-action:none}.view-title{position:absolute;top:14px;padding:6px 10px;border:1px solid #34415a;border-radius:8px;background:#0d131dcc;backdrop-filter:blur(5px);font-weight:650;pointer-events:none}.view-title.left{left:16px}.view-title.right{right:16px}.hint{position:absolute;left:16px;bottom:13px;color:#a7b2c2;background:#0a0e16b8;padding:6px 9px;border-radius:7px;pointer-events:none}.loading{position:absolute;inset:0;display:none;place-items:center;background:#070a10bb;font-size:16px;z-index:4}.loading.show{display:grid}.side{overflow:auto;border-left:1px solid var(--line);background:var(--panel);padding:14px}.section{border:1px solid var(--line);border-radius:10px;background:#0e141e;margin-bottom:12px;overflow:hidden}.section h3{font-size:12px;text-transform:uppercase;letter-spacing:.11em;color:#9eabc0;margin:0;padding:10px 11px;border-bottom:1px solid var(--line)}.section-body{padding:10px 11px}.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.modes button{font-size:12px;padding:8px 5px}.stats{display:grid;grid-template-columns:1fr 1fr;gap:7px}.stat{padding:8px;background:#151d29;border-radius:8px}.stat b{display:block;font-size:17px}.stat span{font-size:11px;color:var(--muted)}.control{display:grid;grid-template-columns:112px 1fr;align-items:center;gap:8px;margin:8px 0}.control label{color:#aeb9c9;font-size:12px}.control input[type=range]{width:100%;padding:0}.check{display:flex;gap:8px;align-items:center;margin:8px 0}.check input{accent-color:var(--accent)}.camera{display:grid;grid-template-columns:repeat(4,1fr);gap:5px}.camera button{font-size:12px;padding:6px 3px}.legend{display:flex;flex-wrap:wrap;gap:6px;max-height:150px;overflow:auto}.chip{display:flex;align-items:center;gap:5px;padding:4px 7px;border:1px solid #344057;border-radius:999px;font-size:11px;cursor:pointer;user-select:none}.chip.off{opacity:.3;text-decoration:line-through}.dot{width:9px;height:9px;border-radius:50%}.inspection{font:12px/1.55 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre-wrap;color:#cbd5e4;min-height:92px}.meta{font:11px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre-wrap;max-height:230px;overflow:auto;color:#9eabbf}.warning{color:#ffca68}.ok{color:#77dfa0}.kbd{font:11px ui-monospace,monospace;padding:1px 5px;border:1px solid #48536a;border-bottom-width:2px;border-radius:4px;color:#bfc8d7}.footer-actions{display:flex;gap:6px}.footer-actions button{flex:1}@media(max-width:850px){.content{grid-template-columns:1fr}.side{position:absolute;z-index:5;right:0;top:54px;bottom:0;width:min(370px,92vw);box-shadow:-8px 0 30px #0008}.topbar select{min-width:120px}.brand{display:none}}
+</style>
+</head>
+<body>
+<div id="app">
+  <div class="topbar">
+    <div class="brand">Boundary Perturbation Inspector</div>
+    <button id="prev" title="上一个">◀</button><button id="next" title="下一个">▶</button>
+    <select id="sampleSelect"></select>
+    <span id="sampleCounter" style="color:var(--muted);white-space:nowrap"></span>
+  </div>
+  <div class="content">
+    <main class="viewport" id="viewport">
+      <canvas id="canvas"></canvas>
+      <div class="view-title left" id="leftTitle">Clean</div>
+      <div class="view-title right" id="rightTitle" hidden>Perturbed</div>
+      <div class="hint">拖拽旋转 · 滚轮缩放 · 点击检查点 · <span class="kbd">C</span> 对比 · <span class="kbd">X</span> 改动</div>
+      <div class="loading show" id="loading">正在读取点云…</div>
+    </main>
+    <aside class="side">
+      <section class="section"><h3>视图</h3><div class="section-body">
+        <div class="modes" id="modes">
+          <button data-mode="compare" class="active">并排对比</button><button data-mode="clean">Clean</button><button data-mode="perturbed">Perturbed</button>
+          <button data-mode="changed">Changed</button><button data-mode="boundary">Boundary</button><button data-mode="overlay">叠加检查</button>
+        </div>
+      </div></section>
+      <section class="section"><h3>样本统计</h3><div class="section-body">
+        <div class="stats">
+          <div class="stat"><b id="changedStat">–</b><span>changed</span></div>
+          <div class="stat"><b id="rawStat">–</b><span>raw boundary</span></div>
+          <div class="stat"><b id="bandStat">–</b><span>boundary band</span></div>
+          <div class="stat"><b id="pointStat">–</b><span>display / total</span></div>
+        </div>
+        <div id="statusText" style="margin-top:9px;color:var(--muted);font-size:12px"></div>
+      </div></section>
+      <section class="section"><h3>显示控制</h3><div class="section-body">
+        <div class="control"><label>点大小 <span id="sizeValue">3.0</span></label><input id="pointSize" type="range" min="1" max="10" step="0.25" value="3"></div>
+        <div class="control"><label>背景点透明度</label><input id="opacity" type="range" min="0" max="1" step="0.02" value="0.18"></div>
+        <div class="control"><label>标签变化</label><select id="transition"><option value="all">全部变化</option></select></div>
+        <label class="check"><input id="onlyChanged" type="checkbox"> Changed 视图隐藏未改动点</label>
+        <label class="check"><input id="emphasizeChanges" type="checkbox" checked> 对比视图红色高亮改动点</label>
+        <label class="check"><input id="showBox" type="checkbox" checked> 显示 bounding box / axes</label>
+      </div></section>
+      <section class="section"><h3>相机</h3><div class="section-body camera">
+        <button data-camera="front">前</button><button data-camera="back">后</button><button data-camera="left">左</button><button data-camera="right">右</button>
+        <button data-camera="top">顶</button><button data-camera="bottom">底</button><button data-camera="iso">等轴</button><button data-camera="reset">重置</button>
+      </div></section>
+      <section class="section"><h3>Label 图例（点击隐藏）</h3><div class="section-body"><div class="legend" id="legend"></div></div></section>
+      <section class="section"><h3>点击点检查</h3><div class="section-body"><div class="inspection" id="inspection">点击模型中的点查看原始索引、坐标和标签变化。</div></div></section>
+      <section class="section"><h3>Metadata</h3><div class="section-body"><div class="meta" id="metadata">–</div></div></section>
+      <div class="footer-actions"><button id="resetView">重置视图</button><button id="screenshot">保存截图</button></div>
+    </aside>
+  </div>
+</div>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+const canvas=$('canvas'), viewport=$('viewport');
+let gl=null, program=null, positionBuffer=null, linePositionBuffer=null, lineColorBuffer=null, selectedBuffer=null;
+let samples=[], sample=null, normalized=null, staticMode=false, mode='compare', pointSize=3, bgOpacity=.18, transition='all', onlyChanged=false, emphasizeChanges=true, showBox=true;
+let colorBuffers={}, colorArrays={}, hiddenLabels=new Set(), selected=-1;
+let camera={yaw:.72,pitch:.36,distance:3.3};
+let dragging=false, moved=false, downX=0, downY=0, lastX=0, lastY=0;
+
+function shader(type,source){const s=gl.createShader(type);gl.shaderSource(s,source);gl.compileShader(s);if(!gl.getShaderParameter(s,gl.COMPILE_STATUS))throw new Error(gl.getShaderInfoLog(s));return s}
+function initGL(){
+  gl=canvas.getContext('webgl',{antialias:true,alpha:false,preserveDrawingBuffer:true});
+  if(!gl)throw new Error('浏览器不支持 WebGL');
+  const vs=shader(gl.VERTEX_SHADER,`attribute vec3 aPosition;attribute vec4 aColor;uniform mat4 uMVP;uniform float uPointSize;varying vec4 vColor;void main(){gl_Position=uMVP*vec4(aPosition,1.0);gl_PointSize=uPointSize;vColor=aColor;}`);
+  const fs=shader(gl.FRAGMENT_SHADER,`precision mediump float;varying vec4 vColor;uniform bool uRound;void main(){if(uRound){vec2 p=gl_PointCoord*2.0-1.0;if(dot(p,p)>1.0)discard;}if(vColor.a<0.01)discard;gl_FragColor=vColor;}`);
+  program=gl.createProgram();gl.attachShader(program,vs);gl.attachShader(program,fs);gl.linkProgram(program);if(!gl.getProgramParameter(program,gl.LINK_STATUS))throw new Error(gl.getProgramInfoLog(program));
+  program.pos=gl.getAttribLocation(program,'aPosition');program.color=gl.getAttribLocation(program,'aColor');program.mvp=gl.getUniformLocation(program,'uMVP');program.size=gl.getUniformLocation(program,'uPointSize');program.round=gl.getUniformLocation(program,'uRound');
+  positionBuffer=gl.createBuffer();linePositionBuffer=gl.createBuffer();lineColorBuffer=gl.createBuffer();selectedBuffer=gl.createBuffer();
+  gl.enable(gl.DEPTH_TEST);gl.enable(gl.BLEND);gl.blendFunc(gl.SRC_ALPHA,gl.ONE_MINUS_SRC_ALPHA);gl.clearColor(.035,.047,.071,1);
+}
+function perspective(fovy,aspect,near,far){const f=1/Math.tan(fovy/2),nf=1/(near-far);return new Float32Array([f/aspect,0,0,0,0,f,0,0,0,0,(far+near)*nf,-1,0,0,2*far*near*nf,0])}
+function lookAt(eye,center,up){let zx=eye[0]-center[0],zy=eye[1]-center[1],zz=eye[2]-center[2];let l=Math.hypot(zx,zy,zz);zx/=l;zy/=l;zz/=l;let xx=up[1]*zz-up[2]*zy,xy=up[2]*zx-up[0]*zz,xz=up[0]*zy-up[1]*zx;l=Math.hypot(xx,xy,xz)||1;xx/=l;xy/=l;xz/=l;const yx=zy*xz-zz*xy,yy=zz*xx-zx*xz,yz=zx*xy-zy*xx;return new Float32Array([xx,yx,zx,0,xy,yy,zy,0,xz,yz,zz,0,-(xx*eye[0]+xy*eye[1]+xz*eye[2]),-(yx*eye[0]+yy*eye[1]+yz*eye[2]),-(zx*eye[0]+zy*eye[1]+zz*eye[2]),1])}
+function multiply(a,b){const out=new Float32Array(16);for(let c=0;c<4;c++)for(let r=0;r<4;r++)out[c*4+r]=a[r]*b[c*4]+a[4+r]*b[c*4+1]+a[8+r]*b[c*4+2]+a[12+r]*b[c*4+3];return out}
+function cameraMVP(aspect){const cp=Math.cos(camera.pitch),eye=[camera.distance*cp*Math.sin(camera.yaw),camera.distance*Math.sin(camera.pitch),camera.distance*cp*Math.cos(camera.yaw)];return multiply(perspective(Math.PI/4,aspect,.01,50),lookAt(eye,[0,0,0],[0,1,0]))}
+function resize(){const dpr=Math.min(devicePixelRatio||1,2),w=Math.max(1,Math.floor(canvas.clientWidth*dpr)),h=Math.max(1,Math.floor(canvas.clientHeight*dpr));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h}render()}
+function hsl(h,s=.72,l=.56){h=((h%1)+1)%1;const a=s*Math.min(l,1-l),f=n=>{const k=(n+h*12)%12;return l-a*Math.max(-1,Math.min(k-3,9-k,1))};return [f(0),f(8),f(4)]}
+function labelColor(label){return hsl(Number(label)*.61803398875+.08)}
+function makeColors(kind){
+  const n=sample.points.length,out=new Float32Array(n*4),filter=transition==='all'?null:transition.split('>').map(Number);
+  for(let i=0;i<n;i++){
+    const cl=sample.clean_labels[i],pl=sample.perturbed_labels[i],ch=!!sample.changed_mask[i],raw=!!sample.boundary_mask[i],band=!!sample.loss_boundary_mask[i];let rgb,alpha=1;
+    if(kind==='clean')rgb=labelColor(cl);
+    else if(kind==='perturbed')rgb=labelColor(pl);
+    else if(kind==='highlight'){rgb=[1,.08,.03];alpha=ch?1:0}
+    else if(kind==='changed'){rgb=ch?[1,.18,.12]:[.48,.52,.59];alpha=ch?1:(onlyChanged?0:bgOpacity)}
+    else if(kind==='boundary'){if(raw){rgb=[.18,.44,1];alpha=1}else if(band){rgb=[.05,.88,.92];alpha=.72}else{rgb=[.45,.49,.56];alpha=bgOpacity*.55}}
+    else {rgb=ch?labelColor(pl):labelColor(cl);alpha=ch?1:bgOpacity}
+    if(hiddenLabels.has(cl) || hiddenLabels.has(pl))alpha=0;
+    if(filter && !(ch&&cl===filter[0]&&pl===filter[1]))alpha*=.06;
+    const o=i*4;out[o]=rgb[0];out[o+1]=rgb[1];out[o+2]=rgb[2];out[o+3]=alpha;
+  }
+  return out;
+}
+function rebuildColors(){
+  ['clean','perturbed','highlight','changed','boundary','overlay'].forEach(kind=>{const values=makeColors(kind);colorArrays[kind]=values;if(!colorBuffers[kind])colorBuffers[kind]=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,colorBuffers[kind]);gl.bufferData(gl.ARRAY_BUFFER,values,gl.STATIC_DRAW)});render();
+}
+function bindAttribute(buffer,location,size){gl.bindBuffer(gl.ARRAY_BUFFER,buffer);gl.enableVertexAttribArray(location);gl.vertexAttribPointer(location,size,gl.FLOAT,false,0,0)}
+function drawPoints(kind,mvp,x,y,w,h){gl.viewport(x,y,w,h);gl.scissor(x,y,w,h);gl.uniformMatrix4fv(program.mvp,false,mvp);gl.uniform1f(program.size,pointSize*(devicePixelRatio||1));gl.uniform1i(program.round,1);bindAttribute(positionBuffer,program.pos,3);bindAttribute(colorBuffers[kind],program.color,4);gl.drawArrays(gl.POINTS,0,sample.points.length);if(selected>=0){const p=normalized.slice(selected*3,selected*3+3);gl.bindBuffer(gl.ARRAY_BUFFER,selectedBuffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(p),gl.DYNAMIC_DRAW);bindAttribute(selectedBuffer,program.pos,3);gl.disableVertexAttribArray(program.color);gl.vertexAttrib4f(program.color,1,1,1,1);gl.uniform1f(program.size,Math.max(9,pointSize*3)*(devicePixelRatio||1));gl.drawArrays(gl.POINTS,0,1);gl.enableVertexAttribArray(program.color)}}
+function drawHighlight(mvp,x,y,w,h){if(!emphasizeChanges)return;gl.viewport(x,y,w,h);gl.scissor(x,y,w,h);gl.uniformMatrix4fv(program.mvp,false,mvp);gl.uniform1f(program.size,Math.max(5,pointSize*1.8)*(devicePixelRatio||1));gl.uniform1i(program.round,1);bindAttribute(positionBuffer,program.pos,3);bindAttribute(colorBuffers.highlight,program.color,4);gl.depthFunc(gl.LEQUAL);gl.drawArrays(gl.POINTS,0,sample.points.length);gl.depthFunc(gl.LESS)}
+function drawLines(mvp,x,y,w,h){if(!showBox)return;gl.viewport(x,y,w,h);gl.scissor(x,y,w,h);gl.uniformMatrix4fv(program.mvp,false,mvp);gl.uniform1i(program.round,0);bindAttribute(linePositionBuffer,program.pos,3);bindAttribute(lineColorBuffer,program.color,4);gl.drawArrays(gl.LINES,0,30)}
+function render(){if(!gl||!sample)return;resizeNoRender();gl.enable(gl.SCISSOR_TEST);gl.scissor(0,0,canvas.width,canvas.height);gl.clear(gl.COLOR_BUFFER_BIT|gl.DEPTH_BUFFER_BIT);gl.useProgram(program);const compare=mode==='compare';if(compare){const half=Math.floor(canvas.width/2),mvp=cameraMVP((half||1)/canvas.height);drawPoints('clean',mvp,0,0,half,canvas.height);drawLines(mvp,0,0,half,canvas.height);drawPoints('perturbed',mvp,half,0,canvas.width-half,canvas.height);drawHighlight(mvp,half,0,canvas.width-half,canvas.height);drawLines(mvp,half,0,canvas.width-half,canvas.height)}else{const mvp=cameraMVP(canvas.width/canvas.height);drawPoints(mode,mvp,0,0,canvas.width,canvas.height);drawLines(mvp,0,0,canvas.width,canvas.height)}gl.disable(gl.SCISSOR_TEST)}
+function resizeNoRender(){const dpr=Math.min(devicePixelRatio||1,2),w=Math.max(1,Math.floor(canvas.clientWidth*dpr)),h=Math.max(1,Math.floor(canvas.clientHeight*dpr));if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h}}
+function buildLines(){const p=[];const edge=(a,b)=>p.push(...a,...b),lo=-1,hi=1,corners=[[lo,lo,lo],[hi,lo,lo],[hi,hi,lo],[lo,hi,lo],[lo,lo,hi],[hi,lo,hi],[hi,hi,hi],[lo,hi,hi]];[[0,1],[1,2],[2,3],[3,0],[4,5],[5,6],[6,7],[7,4],[0,4],[1,5],[2,6],[3,7]].forEach(e=>edge(corners[e[0]],corners[e[1]]));edge([0,0,0],[1.25,0,0]);edge([0,0,0],[0,1.25,0]);edge([0,0,0],[0,0,1.25]);const colors=[];for(let i=0;i<24;i++)colors.push(.3,.38,.5,.38);colors.push(1,.2,.2,1,1,.2,.2,1,.2,1,.3,1,.2,1,.3,1,.25,.5,1,1,.25,.5,1,1);gl.bindBuffer(gl.ARRAY_BUFFER,linePositionBuffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(p),gl.STATIC_DRAW);gl.bindBuffer(gl.ARRAY_BUFFER,lineColorBuffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array(colors),gl.STATIC_DRAW)}
+function formatPct(v){return `${(100*Number(v||0)).toFixed(2)}%`}
+function updateUI(){
+  const s=sample.stats,m=sample.metadata||{};$('changedStat').textContent=formatPct(s.changed_ratio);$('rawStat').textContent=formatPct(s.raw_boundary_ratio);$('bandStat').textContent=formatPct(s.loss_boundary_ratio);$('pointStat').textContent=`${sample.display_points.toLocaleString()} / ${sample.total_points.toLocaleString()}`;
+  const flags=[];flags.push(`seed=${sample.generation?.seed??'n/a'}`);flags.push(`severity=${m.severity??'n/a'}`);flags.push(`pairs=${m.num_candidate_pairs??s.transitions.length}`);flags.push(`ops=${m.operations?.length??'n/a'}`);if(m.noop)flags.push(`noop: ${m.skip_reason}`);if(sample.display_is_subsampled)flags.push('display subsampled');$('statusText').textContent=flags.join(' · ');$('statusText').className=m.noop?'warning':'ok';
+  $('metadata').textContent=JSON.stringify({generation:sample.generation,metadata:m,transitions:s.transitions},null,2);
+  const transition=$('transition');transition.innerHTML='<option value="all">全部变化</option>';s.transitions.forEach(t=>{const o=document.createElement('option');o.value=`${t.source}>${t.target}`;o.textContent=`${t.source} → ${t.target} (${t.count})`;transition.appendChild(o)});transition.value='all';
+  const legend=$('legend');legend.innerHTML='';hiddenLabels.clear();s.classes.forEach(item=>{const chip=document.createElement('div');chip.className='chip';chip.dataset.label=item.label;const rgb=labelColor(item.label).map(x=>Math.round(x*255));chip.innerHTML=`<span class="dot" style="background:rgb(${rgb.join(',')})"></span><span>${item.label} · ${item.count}</span>`;chip.onclick=()=>{const l=Number(chip.dataset.label);hiddenLabels.has(l)?hiddenLabels.delete(l):hiddenLabels.add(l);chip.classList.toggle('off');rebuildColors()};legend.appendChild(chip)});
+}
+function normalizePoints(){const lo=sample.bounds.min,hi=sample.bounds.max,center=lo.map((x,i)=>(x+hi[i])/2),scale=2/Math.max(...hi.map((x,i)=>x-lo[i]),1e-9);normalized=new Float32Array(sample.points.length*3);sample.points.forEach((p,i)=>{normalized[i*3]=(p[0]-center[0])*scale;normalized[i*3+1]=(p[1]-center[1])*scale;normalized[i*3+2]=(p[2]-center[2])*scale});gl.bindBuffer(gl.ARRAY_BUFFER,positionBuffer);gl.bufferData(gl.ARRAY_BUFFER,normalized,gl.STATIC_DRAW);buildLines()}
+async function loadSample(index){$('loading').classList.add('show');selected=-1;$('inspection').textContent='点击模型中的点查看原始索引、坐标和标签变化。';try{const url=staticMode?samples[index].data_url:`/api/sample?index=${index}`;const r=await fetch(url);const d=await r.json();if(!r.ok)throw new Error(d.error||'load failed');sample=d;$('sampleSelect').value=String(index);$('sampleCounter').textContent=`${index+1} / ${samples.length}`;history.replaceState(null,'',`?sample=${index}`);normalizePoints();transition='all';updateUI();rebuildColors();resetCamera()}catch(e){$('inspection').textContent=`加载失败：${e.message}`}finally{$('loading').classList.remove('show')}}
+function setMode(next){mode=next;document.querySelectorAll('#modes button').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));const compare=mode==='compare';$('leftTitle').textContent=compare?'Clean':({clean:'Clean segmentation',perturbed:'Perturbed segmentation',changed:'Changed mask',boundary:'Raw boundary + band',overlay:'Perturbed changes over clean'}[mode]);$('rightTitle').hidden=!compare;render()}
+function resetCamera(){camera={yaw:.72,pitch:.36,distance:3.3};render()}
+function cameraPreset(name){const map={front:[0,0],back:[Math.PI,0],left:[-Math.PI/2,0],right:[Math.PI/2,0],top:[0,Math.PI/2-.01],bottom:[0,-Math.PI/2+.01],iso:[.72,.36]};if(name==='reset')return resetCamera();[camera.yaw,camera.pitch]=map[name];camera.distance=3.3;render()}
+function transformPoint(m,p){const x=p[0],y=p[1],z=p[2];return [m[0]*x+m[4]*y+m[8]*z+m[12],m[1]*x+m[5]*y+m[9]*z+m[13],m[2]*x+m[6]*y+m[10]*z+m[14],m[3]*x+m[7]*y+m[11]*z+m[15]]}
+function pick(clientX,clientY){if(!sample)return;const rect=canvas.getBoundingClientRect(),compare=mode==='compare',half=rect.width/2,right=compare&&(clientX-rect.left)>=half,x0=right?half:0,w=compare?half:rect.width,localX=clientX-rect.left-x0,localY=clientY-rect.top,mvp=cameraMVP(w/rect.height),colors=colorArrays[compare?(right?'perturbed':'clean'):mode];let best=-1,bestD=Math.max(9,pointSize*2.2);for(let i=0;i<sample.points.length;i++){if(colors[i*4+3]<.02)continue;const c=transformPoint(mvp,[normalized[i*3],normalized[i*3+1],normalized[i*3+2]]);if(c[3]<=0)continue;const sx=(c[0]/c[3]*.5+.5)*w,sy=(-c[1]/c[3]*.5+.5)*rect.height,d=Math.hypot(sx-localX,sy-localY);if(d<bestD){bestD=d;best=i}}selected=best;if(best>=0){const p=sample.points[best],cl=sample.clean_labels[best],pl=sample.perturbed_labels[best];$('inspection').textContent=`display index : ${best}\noriginal index: ${sample.indices[best]}\nxyz           : ${p.map(v=>Number(v).toFixed(6)).join(', ')}\nclean label   : ${cl}\nperturbed     : ${pl}\ntransition    : ${cl===pl?'unchanged':`${cl} → ${pl}`}\nraw boundary  : ${!!sample.boundary_mask[best]}\nboundary band : ${!!sample.loss_boundary_mask[best]}`}else $('inspection').textContent='没有选中点；可增大点大小后重试。';render()}
+async function init(){try{initGL();let r=await fetch('data/index.json',{cache:'no-store'}),d;if(r.ok){staticMode=true;d=await r.json()}else{r=await fetch('/api/samples');d=await r.json();if(!r.ok)throw new Error(d.error||'listing failed')}samples=d.samples;const select=$('sampleSelect');samples.forEach(s=>{const o=document.createElement('option');o.value=s.index;o.textContent=s.name;select.appendChild(o)});let index=Math.min(Math.max(Number(new URLSearchParams(location.search).get('sample')||0),0),samples.length-1);await loadSample(index)}catch(e){$('loading').textContent=`初始化失败：${e.message}`;$('loading').classList.add('show')}}
+canvas.addEventListener('pointerdown',e=>{dragging=true;moved=false;downX=lastX=e.clientX;downY=lastY=e.clientY;canvas.setPointerCapture(e.pointerId)});canvas.addEventListener('pointermove',e=>{if(!dragging)return;const dx=e.clientX-lastX,dy=e.clientY-lastY;if(Math.hypot(e.clientX-downX,e.clientY-downY)>3)moved=true;camera.yaw-=dx*.008;camera.pitch=Math.max(-1.54,Math.min(1.54,camera.pitch+dy*.008));lastX=e.clientX;lastY=e.clientY;render()});canvas.addEventListener('pointerup',e=>{dragging=false;if(!moved)pick(e.clientX,e.clientY)});canvas.addEventListener('wheel',e=>{e.preventDefault();camera.distance=Math.max(1.15,Math.min(12,camera.distance*Math.exp(e.deltaY*.001)));render()},{passive:false});
+$('sampleSelect').onchange=e=>loadSample(Number(e.target.value));$('prev').onclick=()=>loadSample((Number($('sampleSelect').value)-1+samples.length)%samples.length);$('next').onclick=()=>loadSample((Number($('sampleSelect').value)+1)%samples.length);
+document.querySelectorAll('#modes button').forEach(b=>b.onclick=()=>setMode(b.dataset.mode));$('pointSize').oninput=e=>{pointSize=Number(e.target.value);$('sizeValue').textContent=pointSize.toFixed(1);render()};$('opacity').oninput=e=>{bgOpacity=Number(e.target.value);rebuildColors()};$('transition').onchange=e=>{transition=e.target.value;rebuildColors()};$('onlyChanged').onchange=e=>{onlyChanged=e.target.checked;rebuildColors()};$('emphasizeChanges').onchange=e=>{emphasizeChanges=e.target.checked;render()};$('showBox').onchange=e=>{showBox=e.target.checked;render()};document.querySelectorAll('[data-camera]').forEach(b=>b.onclick=()=>cameraPreset(b.dataset.camera));$('resetView').onclick=resetCamera;$('screenshot').onclick=()=>{render();const a=document.createElement('a');a.download=`${sample.name}_${mode}.png`;a.href=canvas.toDataURL('image/png');a.click()};window.addEventListener('resize',resize);window.addEventListener('keydown',e=>{if(e.target.matches('input,select'))return;const keys={c:'compare',x:'changed',b:'boundary',o:'overlay',p:'perturbed',g:'clean'};if(keys[e.key.toLowerCase()])setMode(keys[e.key.toLowerCase()]);if(e.key==='ArrowLeft')$('prev').click();if(e.key==='ArrowRight')$('next').click()});
+init();
+</script>
+</body>
+</html>

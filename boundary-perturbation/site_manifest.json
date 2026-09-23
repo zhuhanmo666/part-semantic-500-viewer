@@ -1,0 +1,6 @@
+{
+  "output": "/home/zhm/data_prepare/boundary_refinement_pipeline_v1.0/public_site/boundary-perturbation",
+  "samples": 10,
+  "data_bytes": 9100502,
+  "max_points": 100000
+}
